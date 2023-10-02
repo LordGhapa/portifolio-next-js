@@ -27,7 +27,7 @@ const Hero = () => {
             width={473}
             height={289}
             className="h-auto max-h-[289px] w-full max-w-[473px] "
-            src="/pc.png"
+            src="/pc.webp"
             alt="Sou uma imagem"
           />
         </div>

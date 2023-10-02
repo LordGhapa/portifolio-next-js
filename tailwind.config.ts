@@ -1,22 +1,22 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}'
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       fontFamily: {
-        lato: ['Lato']
+        lato: ["Lato"],
       },
       backgroundImage: {
-        hero: "url('/hero.png')",
-        heromd: "url('/hero-mobile.png')"
-      }
-    }
+        hero: "url('/hero.webp')",
+        heromd: "url('/hero-mobile.webp')",
+      },
+    },
   },
-  plugins: []
-}
-export default config
+  plugins: [],
+};
+export default config;
