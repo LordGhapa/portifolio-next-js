@@ -1,4 +1,4 @@
-export default function Home() {
+export default function teste() {
   return (
     <main className="  flex flex-col bg-center text-white ">
       <section className="hero flex h-screen items-center justify-center bg-hero  bg-cover bg-no-repeat px-3 pt-10  md:max-h-[700px]">
