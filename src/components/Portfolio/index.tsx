@@ -11,7 +11,7 @@ const Portfolio = () => {
             {data.map((item, index) => (
               <div
                 key={index}
-                className="max-w-xs rounded-xl border-x-[15px] border-y-[10px] "
+                className=" max-w-xs  rounded-xl border-x-[15px] border-y-[10px] "
               >
                 <Modal {...item} />
               </div>

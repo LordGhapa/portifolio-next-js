@@ -4,7 +4,7 @@ interface HtmlComponentProps {
 const HtmlComponent = ({ text }: HtmlComponentProps) => {
   return (
     <>
-      <div dangerouslySetInnerHTML={{ __html: text }} />
+      <span dangerouslySetInnerHTML={{ __html: text }} />
     </>
   );
 };

@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 
 import Portfolio from "@/components/Portfolio/index";
@@ -7,6 +8,7 @@ const Home = () => {
     <>
       <Hero />
       <Portfolio />
+      <Footer />
     </>
   );
 };

@@ -1,4 +1,4 @@
-// import HtmlComponent from "../HtmlComponent/index";
+import { AiFillCloseCircle } from "react-icons/ai";
 import dynamic from "next/dynamic";
 
 const HtmlComponent = dynamic(
@@ -18,7 +18,7 @@ interface ModalProps {
 }
 const Modal = ({ img, git, youtube, link, text, id }: ModalProps) => {
   return (
-    <div className="">
+    <div>
       {/* ModalTrigger */}
 
       <div>
@@ -48,12 +48,12 @@ const Modal = ({ img, git, youtube, link, text, id }: ModalProps) => {
       {/* Modal */}
       <label
         htmlFor={id}
-        className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-slate-700/30 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+        className="pointer-events-none invisible fixed inset-0 z-50 flex  cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-slate-700/30 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
       >
         {/* box modal */}
         <label className="h-fit max-h-[calc(100vh-5em)] w-80 max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white p-6 text-black  shadow-2xl transition">
           <label htmlFor={id} className="absolute right-3 top-2 cursor-pointer">
-            x
+            <AiFillCloseCircle size={24} />
           </label>
           <h3 className="text-lg font-bold">ola</h3>
           <p className="py-4">
