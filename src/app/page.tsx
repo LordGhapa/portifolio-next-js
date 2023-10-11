@@ -6,7 +6,7 @@ import Portfolio from "@/components/Portfolio/index";
 const Home = () => {
   return (
     <>
-      {/* <Hero /> */}
+      <Hero />
       <Portfolio />
       <Footer />
     </>
