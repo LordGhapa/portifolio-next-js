@@ -19,20 +19,27 @@ const Footer = () => {
           <h2 className=" mb-5 text-4xl font-bold">Contato</h2>
 
           <div className="flex gap-3">
-            <button
+            <a
+              href="#"
               className="flex h-[50px] w-[50px] cursor-pointer
-            items-center justify-center rounded-full  border-2 bg-slate-900"
+            items-center justify-center rounded-full  border-2 bg-slate-900 transition-all duration-300 ease-in-out hover:scale-110"
             >
               <FaLinkedinIn size={30} />
-            </button>
+            </a>
 
-            <button className="cursor-pointer  rounded-full   bg-slate-900">
+            <a
+              href="#"
+              className="cursor-pointer rounded-full bg-slate-900 transition-all duration-300 ease-in-out hover:scale-110"
+            >
               <AiOutlineWhatsApp className="rounded-full" size={50} />
-            </button>
+            </a>
 
-            <button className="cursor-pointer rounded-full bg-slate-900">
+            <a
+              href="#"
+              className="cursor-pointer rounded-full bg-slate-900 transition-all duration-300 ease-in-out hover:scale-110"
+            >
               <AiFillGithub size={50} />
-            </button>
+            </a>
           </div>
         </div>
       </div>
