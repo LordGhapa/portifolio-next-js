@@ -15,10 +15,10 @@ const Hero = () => {
             </p>
             <p className=" font-lato text-base sm:text-lg">
               A minha jornada no mundo do desenvolvimento web começou com o{" "}
-              <span className="text-[18px] font-bold">React</span> e o
-              <span className="text-[18px] font-bold"> Next.js</span>, e desde
-              então tenho trabalhado para aprimorar minhas habilidades e criar
-              sites e aplicativos envolventes.
+              <span className=" font-bold">React</span> e o
+              <span className="font-bold"> Next.js</span>, e desde então tenho
+              trabalhado para aprimorar minhas habilidades e criar sites e
+              aplicativos envolventes.
             </p>
           </div>
 

@@ -21,7 +21,7 @@ const Modal = ({ img, git, youtube, link, text, id }: ModalProps) => {
     <div>
       {/* ModalTrigger */}
 
-      <div>
+      <div className="modal max-w-xs  rounded-xl border-x-[15px] border-y-[10px]">
         <label
           htmlFor={id}
           className="cursor-pointer rounded bg-black py-4 text-white active:bg-slate-400"

@@ -9,12 +9,7 @@ const Portfolio = () => {
           <h2 className="mb-10 text-5xl font-bold">PORTFOLIO</h2>
           <div className="flex flex-col flex-wrap items-center justify-center gap-10  sm:flex-row">
             {data.map((item, index) => (
-              <div
-                key={index}
-                className=" max-w-xs  rounded-xl border-x-[15px] border-y-[10px] "
-              >
-                <Modal {...item} />
-              </div>
+              <Modal key={index} {...item} />
             ))}
           </div>
         </div>
