@@ -24,14 +24,14 @@ const Hero = () => {
               <a
                 target="_blank"
                 href="#"
-                className="cursor-pointer rounded-full bg-slate-900 p-3 transition-all ease-in-out hover:scale-110 "
+                className="cursor-pointer rounded-full bg-slate-900 p-3 transition-all duration-300 ease-in-out  hover:scale-110"
               >
                 Curriculo CV
               </a>
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/felipe-lacerda-oliveira/"
-                className="pointer rounded-full bg-slate-900 p-3 transition-all ease-in-out hover:scale-110"
+                className="pointer rounded-full bg-slate-900 p-3 transition-all duration-300 ease-in-out hover:scale-110"
                 rel="noreferrer"
               >
                 LinkedIn

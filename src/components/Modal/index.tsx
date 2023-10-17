@@ -70,8 +70,8 @@ const Modal = ({
             <AiFillCloseCircle size={24} />
           </label>
           <img
-            width={291}
-            height={212}
+            width={293}
+            height={214}
             src={img}
             className="w-11/12 "
             alt="img do projeto"
