@@ -20,6 +20,23 @@ const Hero = () => {
               trabalhado para aprimorar minhas habilidades e criar sites e
               aplicativos envolventes.
             </p>
+            <div className="mt-2 flex gap-3">
+              <a
+                target="_blank"
+                href="#"
+                className="cursor-pointer rounded-full bg-slate-900 p-3 transition-all ease-in-out hover:scale-110 "
+              >
+                Curriculo CV
+              </a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/felipe-lacerda-oliveira/"
+                className="pointer rounded-full bg-slate-900 p-3 transition-all ease-in-out hover:scale-110"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+            </div>
           </div>
 
           <img

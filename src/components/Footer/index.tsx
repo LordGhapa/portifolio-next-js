@@ -20,23 +20,29 @@ const Footer = () => {
 
           <div className="flex gap-3">
             <a
+              target="_blank"
               href="https://www.linkedin.com/in/felipe-lacerda-oliveira/"
               className="flex h-[50px] w-[50px] cursor-pointer
             items-center justify-center rounded-full  border-2 bg-slate-900 transition-all duration-300 ease-in-out hover:scale-110"
+              rel="noreferrer"
             >
               <FaLinkedinIn size={30} />
             </a>
 
             <a
+              target="_blank"
               href="https://api.whatsapp.com/send?phone=5562982069427"
               className="cursor-pointer rounded-full bg-slate-900 transition-all duration-300 ease-in-out hover:scale-110"
+              rel="noreferrer"
             >
               <AiOutlineWhatsApp className="rounded-full" size={50} />
             </a>
 
             <a
+              target="_blank"
               href="https://github.com/LordGhapa"
               className="cursor-pointer rounded-full bg-slate-900 transition-all duration-300 ease-in-out hover:scale-110"
+              rel="noreferrer"
             >
               <AiFillGithub size={50} />
             </a>
