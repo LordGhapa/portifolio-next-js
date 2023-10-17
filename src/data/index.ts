@@ -2,7 +2,7 @@ export const data = [
   {
     title: "IA Historietas",
     id: "001",
-    img: "/ia.png",
+    img: "/ia.webp",
     git: "https://github.com/",
     youtube: "https://github.com/",
     link: "https://github.com/",
@@ -20,7 +20,7 @@ export const data = [
   {
     title: "IA Historietas",
     id: "002",
-    img: "/ia.png",
+    img: "/ia.webp",
     git: "https://github.com/",
     youtube: "https://github.com/",
     link: "https://github.com/",
@@ -38,7 +38,7 @@ export const data = [
   {
     title: "IA Historietas",
     id: "003",
-    img: "/ia.png",
+    img: "/ia.webp",
     git: "https://github.com/",
     youtube: "https://github.com/",
     link: "https://github.com/",
@@ -56,7 +56,7 @@ export const data = [
   {
     title: "IA Historietas",
     id: "004",
-    img: "/ia.png",
+    img: "/ia.webp",
     git: "https://github.com/",
     youtube: "https://github.com/",
     link: "https://github.com/",
@@ -74,7 +74,7 @@ export const data = [
   {
     title: "IA Historietas",
     id: "005",
-    img: "/ia.png",
+    img: "/ia.webp",
     git: "https://github.com/",
     youtube: "https://github.com/",
     link: "https://github.com/",
@@ -92,7 +92,7 @@ export const data = [
   {
     title: "IA Historietas",
     id: "006",
-    img: "/ia.png",
+    img: "/ia.webp",
     git: "https://github.com/",
     youtube: "https://github.com/",
     link: "https://github.com/",
