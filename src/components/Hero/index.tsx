@@ -28,7 +28,6 @@ const Hero = () => {
               >
                 Curriculo CV
               </a> */}
-              
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/felipe-lacerda-oliveira/"
