@@ -56,7 +56,7 @@ export const data = [
     tags: ["javaScript", "HTML/CSS", "Animejs", "Chart.js"],
   },
   {
-    title: "IA Historietas",
+    title: "Batata Lanches",
     id: "005",
     img: "https://user-images.githubusercontent.com/99082399/244683170-ffed4209-9241-42a7-8eb0-077667c8a460.png",
     git: "https://github.com/LordGhapa/vanilajs-landingpage-batata-lanches",
