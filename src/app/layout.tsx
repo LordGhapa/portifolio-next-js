@@ -7,7 +7,23 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Felipe Lacerda Portfolio",
-  description: "Desenvolvedor Front-end",
+  description: "Felipe Lacerda Desenvolvedor Front-end Portfolio",
+  keywords: [
+    "felipe lacerda",
+    "felipe lacerda portfolio",
+    "felipe lacerda dev",
+    "felipe lacerda dev frontend",
+    "dev frontend",
+    "desenvolvedor Front-end",
+  ],
+  authors: [
+    {
+      name: "Felipe Lacerda Oliveira",
+      url: "https://www.linkedin.com/in/felipe-lacerda-oliveira/",
+    },
+  ],
+  creator: "Felipe Lacerda oliveira",
+  generator: "Next.js",
 };
 
 export default function RootLayout({
