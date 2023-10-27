@@ -44,7 +44,7 @@ const Hero = () => {
             height={289}
             className="h-auto max-h-[289px] w-full max-w-[473px] "
             src="/pc.webp"
-            alt="Sou uma imagem"
+            alt="computador com tela verde"
             // eslint-disable-next-line react/no-unknown-property
             fetchPriority="high"
           />
