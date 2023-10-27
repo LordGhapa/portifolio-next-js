@@ -3,7 +3,7 @@ const Hero = () => {
     <main>
       <section
         id="hero"
-        className="flex max-h-screen min-h-[90vh] items-center bg-heromd bg-cover px-3 pt-16 text-white md:bg-hero"
+        className="flex max-h-screen min-h-[100vh] items-center bg-heromd bg-cover px-3 pt-16 text-white md:bg-hero"
       >
         <div className="mx-auto flex w-full max-w-[500px] flex-col items-center  lg:max-w-[1200px] lg:flex-row  lg:justify-between">
           <div className="mb-20 lg:max-w-[540px]">
