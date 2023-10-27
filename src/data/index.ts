@@ -21,7 +21,7 @@ export const data = [
   {
     title: "Buy n Short DashBoard",
     id: "002",
-    img: "https://user-images.githubusercontent.com/99082399/276442998-2b585803-0a19-4921-868b-99fb6a24b01a.png",
+    img: "/dashboard-react.webp",
     git: "https://github.com/LordGhapa/dashboard-react",
     youtube: "https://github.com/",
     link: "https://dashboard-react-lordghapa.vercel.app/",
@@ -31,7 +31,7 @@ export const data = [
   {
     title: "Site Generate NextJS",
     id: "003",
-    img: "https://user-images.githubusercontent.com/99082399/276449618-47bcbe45-2bdc-4990-abf6-7860fe250f32.png",
+    img: "/geradorlp.webp",
     git: "https://github.com/LordGhapa/site-generate-with-nextjs",
     youtube: "https://github.com/",
     link: "https://site-generate-with-nextjs.vercel.app/",
@@ -48,7 +48,7 @@ export const data = [
   {
     title: "App monitoramento de peso",
     id: "004",
-    img: "https://user-images.githubusercontent.com/99082399/236557746-d734808f-3df3-4d0a-951a-38525fbecf05.png",
+    img: "/appdepeso.webp",
     git: "https://github.com/LordGhapa/app-controle-de-peso",
     youtube: "https://github.com/",
     link: "https://lordghapa.github.io/app-controle-de-peso/",
@@ -58,7 +58,7 @@ export const data = [
   {
     title: "Batata Lanches",
     id: "005",
-    img: "https://user-images.githubusercontent.com/99082399/244683170-ffed4209-9241-42a7-8eb0-077667c8a460.png",
+    img: "/batatalp.webp",
     git: "https://github.com/LordGhapa/vanilajs-landingpage-batata-lanches",
     youtube: "https://github.com/",
     link: "https://vanilajs-landingpage-batata-lanches.vercel.app/",
@@ -68,7 +68,7 @@ export const data = [
   {
     title: "DoctorCare",
     id: "006",
-    img: "https://user-images.githubusercontent.com/99082399/210460449-76b0c4ea-7828-4ff2-9753-cf1d257e622f.png",
+    img: "/doctorlp.webp",
     git: "https://github.com/LordGhapa/NLW-Doctor-Care",
     youtube: "https://github.com/",
     link: "https://lordghapa.github.io/NLW-Doctor-Care/",
