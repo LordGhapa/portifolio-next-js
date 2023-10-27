@@ -45,6 +45,7 @@ const Hero = () => {
             className="h-auto max-h-[289px] w-full max-w-[473px] "
             src="/pc.webp"
             alt="Sou uma imagem"
+            // eslint-disable-next-line react/no-unknown-property
             fetchPriority="high"
           />
         </div>
