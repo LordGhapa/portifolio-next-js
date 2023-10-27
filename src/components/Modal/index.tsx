@@ -43,6 +43,7 @@ const Modal = ({
             src={img}
             className="h-auto w-full"
             alt="img do projeto"
+            loading="lazy"
           />
         </label>
       </div>
