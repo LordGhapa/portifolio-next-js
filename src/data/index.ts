@@ -62,7 +62,7 @@ export const data = [
     git: "https://github.com/LordGhapa/vanilajs-landingpage-batata-lanches",
     youtube: "https://github.com/",
     link: "https://vanilajs-landingpage-batata-lanches.vercel.app/",
-    text: "<span> Landing Page para Uma Lanchonete Html,Css,JavaScript e a biblioteca Aos para algumas animações </span> ",
+    text: "<span> Landing Page para Uma Lanchonete  usando Html,Css,JavaScript e a biblioteca Aos para algumas animações </span> ",
     tags: ["HTML/CSS", "javaScript", "AOS"],
   },
   {
