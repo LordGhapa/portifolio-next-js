@@ -21,13 +21,14 @@ const Hero = () => {
               aplicativos envolventes.
             </p>
             <div className="mt-2 flex gap-3">
-              {/* <a
+              <a
                 target="_blank"
-                href="#"
+                href="https://docs.google.com/document/d/1f2AvtA-B474p7bU9rTQ4PnzbaBuy6keKNxuNtGzWSkA/edit"
                 className="cursor-pointer rounded-lg bg-slate-900 p-3 transition-all duration-300 ease-in-out  hover:scale-110 hover:bg-black"
+                rel="noreferrer"
               >
-                Curriculo CV
-              </a> */}
+                Currículo CV
+              </a>
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/felipe-lacerda-oliveira/"
