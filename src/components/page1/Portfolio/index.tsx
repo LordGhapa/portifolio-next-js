@@ -1,5 +1,5 @@
 import Modal from "../Modal";
-import { data } from "../../data/index";
+import { data } from "../../../data/index";
 const Portfolio = () => {
   return (
     <>
