@@ -41,10 +41,13 @@ export default function HeroContent() {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="my-5 max-w-[600px] text-lg text-gray-400  "
+          className="my-5 max-w-[600px] text-lg text-gray-300  "
         >
-          I&rsquo; m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          A minha jornada no mundo do desenvolvimento web começou com o{" "}
+          <span className="font-bold">React</span> e o{" "}
+          <span className="font-bold">Next.js</span> e desde então tenho
+          trabalhado para aprimorar minhas habilidades e criar sites e
+          aplicativos envolventes.
         </motion.p>
         <motion.div variants={slideInFromLeft(1)} className="flex w-full gap-5">
           <Link

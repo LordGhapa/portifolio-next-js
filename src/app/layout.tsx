@@ -3,6 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Inter, Lato } from "next/font/google";
+import Navbar from "@/components/page2/main/NavBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,9 +36,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${inter.className} overflow-y-auto  overflow-x-hidden bg-[#030014]`}
+        className={`${inter.className} overflow-y-auto overflow-x-hidden bg-[#030014]`}
       >
         <StarsCanvas />
+        <Navbar />
         {children}
       </body>
     </html>

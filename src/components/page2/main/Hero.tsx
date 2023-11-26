@@ -1,3 +1,4 @@
+"use client";
 import HeroContent from "../sub/HeroContent";
 
 export default function Hero() {
