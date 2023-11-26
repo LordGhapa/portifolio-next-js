@@ -1,3 +1,4 @@
+import StarsCanvas from "@/components/page2/main/StarBackground";
 import "./globals.css";
 import type { Metadata } from "next";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -33,7 +34,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${inter.className} overflow-y-auto  overflow-x-hidden bg-[#030014]`}
+      >
+        <StarsCanvas />
+        {children}
+      </body>
     </html>
   );
 }

@@ -23,7 +23,7 @@ const Hero = () => {
             <div className="mt-2 flex gap-3">
               <a
                 target="_blank"
-                href="https://docs.google.com/document/d/1f2AvtA-B474p7bU9rTQ4PnzbaBuy6keKNxuNtGzWSkA/edit"
+                href="https://docs.google.com/document/d/1f2AvtA-B474p7bU9rTQ4PnzbaBuy6keKNxuNtGzWSkA"
                 className="cursor-pointer rounded-lg bg-slate-900 p-3 transition-all duration-300 ease-in-out  hover:scale-110 hover:bg-black"
                 rel="noreferrer"
               >

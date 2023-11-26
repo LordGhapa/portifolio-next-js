@@ -1,9 +1,13 @@
-import Versao1 from "@/template/Versão1";
+import Hero from "@/components/page2/main/Hero";
 
 const Home = () => {
   return (
     <>
-      <Versao1 />
+      <main className=" h-full w-full ">
+        <div className="flex flex-col gap-20">
+          <Hero />
+        </div>
+      </main>
     </>
   );
 };
