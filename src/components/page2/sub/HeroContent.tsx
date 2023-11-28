@@ -14,7 +14,7 @@ export default function HeroContent() {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="container z-20 mx-auto flex h-screen flex-row items-center justify-center px-20 pt-10 "
+      className="container z-20  mx-auto flex h-screen flex-row items-center justify-center px-5 "
     >
       <div className="m-auto flex h-full w-full flex-col justify-center gap-5 text-start">
         <motion.div
@@ -71,10 +71,11 @@ export default function HeroContent() {
         className="flex h-full w-full items-center justify-center"
       >
         <Image
-          src="/assets/mainIconsdark.svg"
-          alt="hero image pc coding"
+          src="/pc-image.svg"
+          alt="hero image computador e mãos programando"
           height={650}
           width={650}
+          priority
         />
       </motion.div>
     </motion.div>

@@ -40,9 +40,6 @@ div:has(.modal:hover) .modal:not(:hover) {
   background-color: #969696;
 }
 
-.cursive {
-  font-family: "Cedarville Cursive", cursive;
-}
 .Welcome-text {
   background: linear-gradient(
       0deg,

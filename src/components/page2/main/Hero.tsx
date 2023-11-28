@@ -4,7 +4,7 @@ import HeroContent from "../sub/HeroContent";
 export default function Hero() {
   return (
     <>
-      <div className="relative flex h-full w-full flex-col ">
+      <section className="relative flex h-full w-full flex-col ">
         {/* <video
           autoPlay
           muted
@@ -14,7 +14,7 @@ export default function Hero() {
           <source src="/assets/blackhole.webm" type="video/webm" />
         </video> */}
         <HeroContent />
-      </div>
+      </section>
     </>
   );
 }
