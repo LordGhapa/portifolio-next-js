@@ -16,7 +16,7 @@ export default function ProjectCard({
   link,
 }: ProjectCardProps) {
   return (
-    <div className="relative w-full overflow-hidden  rounded-lg border border-[#2A0E61] shadow-lg lg:w-[30%]">
+    <div className="relative w-full overflow-hidden rounded-lg border border-[#2A0E61] bg-gray-950/50 shadow-lg transition-all duration-300 ease-in-out hover:border-[#7042f88b] lg:w-[30%]">
       <Link href={link}>
         <Image
           src={src}

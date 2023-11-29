@@ -1,9 +1,9 @@
-import StarsCanvas from "@/components/page2/main/StarBackground";
+import StarsCanvas from "@/components/page2/StarBackground";
 import "./globals.css";
 import type { Metadata } from "next";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Inter, Lato } from "next/font/google";
-import Navbar from "@/components/page2/main/NavBar";
+import Navbar from "@/components/page2/NavBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,7 +38,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} overflow-y-auto overflow-x-hidden bg-[#030014]`}
       >
-        <StarsCanvas />
+        {/* <StarsCanvas /> */}
         <Navbar />
         {children}
       </body>

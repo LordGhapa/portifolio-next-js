@@ -1,6 +1,7 @@
-import Hero from "@/components/page2/main/Hero";
-import Projects from "@/components/page2/main/Projects";
-import Skills from "@/components/page2/main/Skills";
+import About from "@/components/page2/About";
+import Hero from "@/components/page2/Hero";
+import Projects from "@/components/page2/projects";
+import Skills from "@/components/page2/Skills";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
           <Hero />
           <Skills />
           <Projects />
+          <About />
         </div>
       </main>
     </>
