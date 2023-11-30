@@ -60,14 +60,14 @@ export default function HeroContent() {
           <Link
             target="_blank"
             href="https://www.linkedin.com/in/felipe-lacerda-oliveira/"
-            className="button-primary w-full max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white "
+            className="button-primary w-full max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white transition-all duration-100 hover:scale-105"
           >
             LinkedIn
           </Link>
           <Link
             target="_blank"
             href="https://docs.google.com/document/d/1f2AvtA-B474p7bU9rTQ4PnzbaBuy6keKNxuNtGzWSkA"
-            className="button-primary w-full max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white"
+            className="button-primary w-full max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white transition-all duration-100 hover:scale-105"
           >
             Currículo
           </Link>

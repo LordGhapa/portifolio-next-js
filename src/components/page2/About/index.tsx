@@ -9,7 +9,7 @@ export default function About() {
     <>
       <section
         id="sobre"
-        className=" z-20 mx-auto flex w-full flex-col items-center justify-center md:px-2"
+        className=" z-20 mx-auto flex w-full flex-col items-center justify-center pb-10 md:px-2"
       >
         <div className="container flex h-full w-full flex-col items-center justify-center gap-8 rounded-lg bg-gray-950/50 px-2 py-10 pb-9 md:justify-between lg:flex-row lg:py-16 xl:pr-20 ">
           <Image
@@ -40,14 +40,14 @@ export default function About() {
               <Link
                 target="_blank"
                 href="https://www.linkedin.com/in/felipe-lacerda-oliveira/"
-                className="button-primary w-full max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white "
+                className="button-primary w-full max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white  transition-all duration-100 hover:scale-105"
               >
                 LinkedIn
               </Link>
               <Link
                 target="_blank"
                 href="https://docs.google.com/document/d/1f2AvtA-B474p7bU9rTQ4PnzbaBuy6keKNxuNtGzWSkA"
-                className="button-primary w-full max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white"
+                className="button-primary w-full max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white transition-all duration-100 hover:scale-105"
               >
                 Currículo
               </Link>

@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Inter, Lato } from "next/font/google";
 import Navbar from "@/components/page2/NavBar";
+import Footer from "@/components/page2/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -39,6 +40,7 @@ export default function RootLayout({
         <StarsCanvas />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
