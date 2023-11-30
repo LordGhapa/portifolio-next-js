@@ -9,7 +9,7 @@ const Home = () => {
       <main className="  z-20 h-full w-full">
         <div className="z-20 flex flex-col ">
           <Hero />
-          <Skills />
+          {/* <Skills /> */}
           <Projects />
           <About />
         </div>
