@@ -24,8 +24,8 @@ export default function Navbar() {
   return (
     <>
       <header>
-        <nav className="fixed top-0 z-50 h-[65px] w-full bg-[#03001417] shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md ">
-          <div className="container m-auto flex h-full w-full flex-row items-center justify-between px-10 ">
+        <nav className="fixed  top-0 z-50 h-[65px] w-full bg-[#03001417] shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md ">
+          <div className="container m-auto flex h-full w-full max-w-7xl flex-row items-center justify-between px-10 ">
             <Link
               href="/#inicio"
               className="flex h-auto w-auto cursor-pointer flex-row items-center "
@@ -34,7 +34,7 @@ export default function Navbar() {
                 Felipe Lacerda
               </p>
             </Link>
-            <div className="flex justify-between  gap-4 rounded-full border border-[#7042f861] bg-[#0300145e] px-5 py-2">
+            <div className="flex justify-between  gap-4 rounded-full border border-[#7042f861] bg-[#030014ad] px-5 py-2">
               {menu.map((el, index) => (
                 <React.Fragment key={index}>
                   <Link

@@ -13,7 +13,7 @@ export default function About() {
       >
         <div className="container flex h-full w-full flex-col items-center justify-center gap-8 rounded-lg bg-gray-950/50 px-2 py-10 pb-9 md:justify-between lg:flex-row lg:py-16 xl:pr-20 ">
           <Image
-            src="/avatarbgnone.svg"
+            src="/avatarpc.jpeg"
             alt="avatar felipe lacerda"
             height={500}
             width={500}

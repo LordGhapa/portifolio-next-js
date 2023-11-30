@@ -6,8 +6,8 @@ import Skills from "@/components/page2/Skills";
 const Home = () => {
   return (
     <>
-      <main className="  h-full w-full pt-10">
-        <div className="flex flex-col ">
+      <main className="  z-20 h-full w-full">
+        <div className="z-20 flex flex-col ">
           <Hero />
           <Skills />
           <Projects />
