@@ -76,3 +76,45 @@ export const data = [
     tags: ["HTML/CSS", "javaScript", "ScrollReveal"],
   },
 ];
+export const dataSkills = [
+  {
+    img: "/skills/html.png",
+    text: "HTML",
+  },
+  {
+    img: "/skills/css.png",
+    text: "CSS",
+  },
+  {
+    img: "/skills/js.png",
+    text: "JavaScript",
+  },
+  {
+    img: "/skills/react.png",
+    text: "React",
+  },
+  {
+    img: "/skills/next.png",
+    text: "Next JS",
+  },
+  {
+    img: "/skills/ts.png",
+    text: "TypeScript",
+  },
+  {
+    img: "/skills/graphql.png",
+    text: "GraphQL",
+  },
+  {
+    img: "/skills/styled-components.jpg",
+    text: "Styled-Components",
+  },
+  {
+    img: "/skills/tailwind.png",
+    text: "Tailwind",
+  },
+  {
+    img: "/skills/git.png",
+    text: "Git",
+  },
+];
