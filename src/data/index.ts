@@ -86,6 +86,7 @@ export const data2 = [
     youtube: "https://github.com/",
     link: "https://ia-historietas.vercel.app/",
     text: " Blog criado usando Static Site Generation (SSG) do NextJS com as informações vindas de uma api em GraphQL criada usando o CMS Strapi ",
+    resume: "Resumo",
     tags: [
       "JavaScript",
       "TypeScript",
@@ -196,5 +197,24 @@ export const dataSkills = [
   {
     img: "/skills/git.png",
     text: "Git",
+  },
+];
+
+export const dataMenu = [
+  {
+    name: "Inicio",
+    href: "/#inicio",
+  },
+  {
+    name: "Habilidades",
+    href: "/#habilidades",
+  },
+  {
+    name: "Projetos",
+    href: "/#projetos",
+  },
+  {
+    name: "Sobre",
+    href: "/#sobre",
   },
 ];

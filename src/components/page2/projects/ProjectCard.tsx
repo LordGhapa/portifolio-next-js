@@ -5,7 +5,7 @@ import React from "react";
 interface ProjectCardProps {
   src: string;
   title: string;
-  desc: string;
+  desc?: string;
   link: string;
 }
 

@@ -1,4 +1,3 @@
-"use client";
 import { data2 } from "@/data";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,8 +7,6 @@ interface ProjectProps {
 }
 export default function Project({ params: { slug } }: ProjectProps) {
   const info = data2.filter((data) => data.id === slug)[0];
-  console.log(info);
-
   return (
     <main className="z-20  mb-10 mt-20 flex min-h-screen flex-col items-center justify-center gap-8 px-2 md:flex-row md:items-start">
       <div className="textos z-20 flex w-full max-w-3xl flex-col gap-2 overflow-hidden  rounded-2xl   bg-slate-900/70">
@@ -17,6 +14,7 @@ export default function Project({ params: { slug } }: ProjectProps) {
           <Link
             href={"/#projetos"}
             className="absolute left-3 top-3 z-20  rounded-lg bg-slate-900 p-1"
+            aria-label="voltar seção de projetos"
           >
             <Image
               src="/ArrowLeft.svg"

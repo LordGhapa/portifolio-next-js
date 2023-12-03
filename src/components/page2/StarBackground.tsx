@@ -32,9 +32,11 @@ function StarBackground(props: any) {
     </group>
   );
 }
-
-const StarsCanvas = () => (
-  <div className="fixed inset-0 z-[1] h-auto w-full">
+type StarsCanvasProps={
+  className?:string;
+}
+const StarsCanvas = ({ className }: StarsCanvasProps) => (
+  <div className={`fixed inset-0 z-[1] h-auto w-full ${className}`}>
     <Canvas camera={{ position: [0, 0, 1] }}>
       <Suspense fallback={null}>
         <StarBackground />

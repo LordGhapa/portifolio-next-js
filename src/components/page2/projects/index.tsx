@@ -17,7 +17,7 @@ export default function Projects() {
               <ProjectCard
                 src={card.img}
                 title={card.title}
-                desc="sou uma descrição"
+                // desc={card?.resume ?? "no Resume"}
                 link={card.id}
               />
             </React.Fragment>
