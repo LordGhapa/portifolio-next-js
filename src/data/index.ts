@@ -81,7 +81,7 @@ export const data2 = [
   {
     title: "IA Historietas",
     id: "001",
-    img: "/ia.webp",
+    img: "/ia-historietas.webp",
     git: "https://github.com/LordGhapa/blog-with-nextjs",
     youtube: "https://github.com/",
     link: "https://ia-historietas.vercel.app/",
@@ -101,7 +101,7 @@ export const data2 = [
   {
     title: "Buy n Short DashBoard",
     id: "002",
-    img: "/dashboard-react.webp",
+    img: "/buy.webp",
     git: "https://github.com/LordGhapa/dashboard-react",
     youtube: "https://github.com/",
     link: "https://dashboard-react-lordghapa.vercel.app/",
@@ -128,7 +128,7 @@ export const data2 = [
   {
     title: "App monitoramento de peso",
     id: "004",
-    img: "/appdepeso.webp",
+    img: "/peso.webp",
     git: "https://github.com/LordGhapa/app-controle-de-peso",
     youtube: "https://github.com/",
     link: "https://lordghapa.github.io/app-controle-de-peso/",
@@ -138,7 +138,7 @@ export const data2 = [
   {
     title: "Batata Lanches",
     id: "005",
-    img: "/batatalp.webp",
+    img: "/batata.webp",
     git: "https://github.com/LordGhapa/vanilajs-landingpage-batata-lanches",
     youtube: "https://github.com/",
     link: "https://vanilajs-landingpage-batata-lanches.vercel.app/",
