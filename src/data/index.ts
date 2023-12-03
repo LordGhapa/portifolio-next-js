@@ -85,7 +85,7 @@ export const data2 = [
     git: "https://github.com/LordGhapa/blog-with-nextjs",
     youtube: "https://github.com/",
     link: "https://ia-historietas.vercel.app/",
-    text: " Blog criado usando Static Site Generation (SSG) do NextJS com as informações vindas de uma api em GraphQL criada usando o CMS Strapi ",
+    text: `" Blog criado usando Static Site Generation (SSG) do NextJS com histórias infantis gerada que foram geradas por uma inteligência artificial e um sistema de comentários para cada post, as informações estão vindo de uma API em GraphQL criada usando o CMS Strapi. O principal desafio foi criar uma lógica para gerar páginas estáticas e componentes que funcionam tanto com 1 ou 100+ posts."`,
     resume: "Resumo",
     tags: [
       "JavaScript",
@@ -105,7 +105,7 @@ export const data2 = [
     git: "https://github.com/LordGhapa/dashboard-react",
     youtube: "https://github.com/",
     link: "https://dashboard-react-lordghapa.vercel.app/",
-    text: " Dashboard Criado usando React,Tailwind e os components da Syncfusion para os gráficos e apps ",
+    text: " Dashboard Criado usando React ,Tailwind e os components da Syncfusion para os gráficos e apps,  O principal desafio foi entender o funcionamento dos componentes que tipo e qual a estrutura de dados aceita por eles ",
     tags: ["javaScript", "React", "React Router", "Syncfusion", "Tailwind"],
   },
   {
