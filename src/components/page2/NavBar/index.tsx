@@ -18,9 +18,8 @@ export default function Navbar() {
               </p>
             </Link>
             <DesktopLinks />
-
-            <MobileLinks />
           </div>
+          <MobileLinks />
         </nav>
       </header>
     </>

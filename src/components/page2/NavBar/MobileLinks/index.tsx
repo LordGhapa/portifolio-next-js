@@ -15,7 +15,7 @@ export default function MobileLinks() {
   return (
     <>
       <div
-        className={`fixed right-0 z-20 m-5 flex h-[50px] w-[50px] cursor-pointer items-center justify-center rounded-full border-2 border-[#4a2ba8] bg-white md:hidden`}
+        className={`fixed right-0 top-0 z-20 mx-5 mt-2 flex h-[50px] w-[50px] cursor-pointer items-center justify-center rounded-full border-2 border-[#4a2ba8] bg-white md:hidden`}
         onClick={handleMenu}
       >
         <div
