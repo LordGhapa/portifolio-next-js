@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import { data } from "../../../data";
+import { data2 } from "../../../data";
 import React from "react";
 export default function Projects() {
   return (
@@ -12,13 +12,13 @@ export default function Projects() {
           Projetos
         </h2>
         <div className="cardsComponent  flex h-full w-full	max-w-[1536px] flex-col flex-wrap items-center justify-center gap-10 px-2  lg:flex-row">
-          {data.map((card, index) => (
+          {data2.map((card, index) => (
             <React.Fragment key={index}>
               <ProjectCard
                 src={card.img}
                 title={card.title}
                 desc="sou uma descrição"
-                link={card.link}
+                link={card.id}
               />
             </React.Fragment>
           ))}
