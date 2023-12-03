@@ -6,7 +6,7 @@ export const data = [
     git: "https://github.com/LordGhapa/blog-with-nextjs",
     youtube: "https://github.com/",
     link: "https://ia-historietas.vercel.app/",
-    text: "<span> Blog criado usando Static Site Generation (SSG) do <b>NextJS</b> com as informações vindas de uma api em <b>GraphQL</b> criada usando o CMS <b>Strapi</b> </span> ",
+    text: " Blog criado usando Static Site Generation (SSG) do NextJS com as informações vindas de uma api em GraphQL criada usando o CMS Strapi  ",
     tags: [
       "JavaScript",
       "TypeScript",
@@ -25,7 +25,7 @@ export const data = [
     git: "https://github.com/LordGhapa/dashboard-react",
     youtube: "https://github.com/",
     link: "https://dashboard-react-lordghapa.vercel.app/",
-    text: "<span> Dashboard Criado usando <b>React</b>,<b>Tailwind</b> e os components da <b>Syncfusion</b> para os gráficos e apps </span> ",
+    text: " Dashboard Criado usando React,Tailwind e os components da Syncfusion para os gráficos e apps  ",
     tags: ["javaScript", "React", "React Router", "Syncfusion", "Tailwind"],
   },
   {
@@ -35,7 +35,7 @@ export const data = [
     git: "https://github.com/LordGhapa/site-generate-with-nextjs",
     youtube: "https://github.com/",
     link: "https://site-generate-with-nextjs.vercel.app/",
-    text: "<span>Um gerador de site possui apenas componentes e uma ideia básica de ordem todas as informações de texto/imagens/cor de fundo e ordem de seções vem de uma api criada usando o CMS <b>Strapi</b> no final gerando uma pagina estática usando o <b>NextJS</b> </span> ",
+    text: "Um gerador de site possui apenas componentes e uma ideia básica de ordem todas as informações de texto/imagens/cor de fundo e ordem de seções vem de uma api criada usando o CMS Strapi no final gerando uma pagina estática usando o NextJS  ",
     tags: [
       "javaScript",
       "TypeScript",
@@ -52,7 +52,7 @@ export const data = [
     git: "https://github.com/LordGhapa/app-controle-de-peso",
     youtube: "https://github.com/",
     link: "https://lordghapa.github.io/app-controle-de-peso/",
-    text: "<span> App de monitoramento de peso usando html,css,js e algumas libs Animejs e Chart.js </span> ",
+    text: " App de monitoramento de peso usando html,css,js e algumas libs Animejs e Chart.js  ",
     tags: ["javaScript", "HTML/CSS", "Animejs", "Chart.js"],
   },
   {
@@ -62,7 +62,7 @@ export const data = [
     git: "https://github.com/LordGhapa/vanilajs-landingpage-batata-lanches",
     youtube: "https://github.com/",
     link: "https://vanilajs-landingpage-batata-lanches.vercel.app/",
-    text: "<span> Landing Page para Uma Lanchonete  usando Html,Css,JavaScript e a biblioteca Aos para algumas animações </span> ",
+    text: " Landing Page para Uma Lanchonete  usando Html,Css,JavaScript e a biblioteca Aos para algumas animações  ",
     tags: ["HTML/CSS", "javaScript", "AOS"],
   },
   {
@@ -72,7 +72,7 @@ export const data = [
     git: "https://github.com/LordGhapa/NLW-Doctor-Care",
     youtube: "https://github.com/",
     link: "https://lordghapa.github.io/NLW-Doctor-Care/",
-    text: "<span> Exemplo de Landing Page para Uma Clinica Medica usando Html,Css,JavaScript e a biblioteca ScrollReveal para algumas animações </span> ",
+    text: " Exemplo de Landing Page para Uma Clinica Medica usando Html,Css,JavaScript e a biblioteca ScrollReveal para algumas animações  ",
     tags: ["HTML/CSS", "javaScript", "ScrollReveal"],
   },
 ];
@@ -105,7 +105,7 @@ export const data2 = [
     git: "https://github.com/LordGhapa/dashboard-react",
     youtube: "https://github.com/",
     link: "https://dashboard-react-lordghapa.vercel.app/",
-    text: "<span> Dashboard Criado usando <b>React</b>,<b>Tailwind</b> e os components da <b>Syncfusion</b> para os gráficos e apps </span> ",
+    text: " Dashboard Criado usando React,Tailwind e os components da Syncfusion para os gráficos e apps ",
     tags: ["javaScript", "React", "React Router", "Syncfusion", "Tailwind"],
   },
   {
@@ -115,7 +115,7 @@ export const data2 = [
     git: "https://github.com/LordGhapa/site-generate-with-nextjs",
     youtube: "https://github.com/",
     link: "https://site-generate-with-nextjs.vercel.app/",
-    text: "<span>Um gerador de site possui apenas componentes e uma ideia básica de ordem todas as informações de texto/imagens/cor de fundo e ordem de seções vem de uma api criada usando o CMS <b>Strapi</b> no final gerando uma pagina estática usando o <b>NextJS</b> </span> ",
+    text: "Um gerador de site possui apenas componentes e uma ideia básica de ordem todas as informações de texto/imagens/cor de fundo e ordem de seções vem de uma api criada usando o CMS Strapi no final gerando uma pagina estática usando o NextJS  ",
     tags: [
       "javaScript",
       "TypeScript",
@@ -132,7 +132,7 @@ export const data2 = [
     git: "https://github.com/LordGhapa/app-controle-de-peso",
     youtube: "https://github.com/",
     link: "https://lordghapa.github.io/app-controle-de-peso/",
-    text: "<span> App de monitoramento de peso usando html,css,js e algumas libs Animejs e Chart.js </span> ",
+    text: " App de monitoramento de peso usando html,css,js e algumas libs Animejs e Chart.js  ",
     tags: ["javaScript", "HTML/CSS", "Animejs", "Chart.js"],
   },
   {
@@ -142,7 +142,7 @@ export const data2 = [
     git: "https://github.com/LordGhapa/vanilajs-landingpage-batata-lanches",
     youtube: "https://github.com/",
     link: "https://vanilajs-landingpage-batata-lanches.vercel.app/",
-    text: "<span> Landing Page para Uma Lanchonete  usando Html,Css,JavaScript e a biblioteca Aos para algumas animações </span> ",
+    text: " Landing Page para Uma Lanchonete  usando Html,Css,JavaScript e a biblioteca Aos para algumas animações  ",
     tags: ["HTML/CSS", "javaScript", "AOS"],
   },
   {
@@ -152,7 +152,7 @@ export const data2 = [
     git: "https://github.com/LordGhapa/NLW-Doctor-Care",
     youtube: "https://github.com/",
     link: "https://lordghapa.github.io/NLW-Doctor-Care/",
-    text: "<span> Exemplo de Landing Page para Uma Clinica Medica usando Html,Css,JavaScript e a biblioteca ScrollReveal para algumas animações </span> ",
+    text: " Exemplo de Landing Page para Uma Clinica Medica usando Html,Css,JavaScript e a biblioteca ScrollReveal para algumas animações  ",
     tags: ["HTML/CSS", "javaScript", "ScrollReveal"],
   },
 ];
