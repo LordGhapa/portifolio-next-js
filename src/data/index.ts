@@ -156,7 +156,6 @@ export const data2 = [
   },
 ];
 
-
 export const dataSkills = [
   {
     img: "/skills/html.png",
