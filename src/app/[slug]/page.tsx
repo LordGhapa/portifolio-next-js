@@ -2,9 +2,17 @@ import { data2 } from "@/data";
 import Image from "next/image";
 import Link from "next/link";
 
+export function generateStaticParams() {
+  const params = data2.map((data) => ({
+    slug: data.id,
+  }));
+  return params;
+}
+
 interface ProjectProps {
   params: { slug: string };
 }
+
 export default function Project({ params: { slug } }: ProjectProps) {
   const info = data2.filter((data) => data.id === slug)[0];
   return (
