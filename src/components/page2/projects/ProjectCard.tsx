@@ -23,7 +23,7 @@ export default function ProjectCard({
           alt={title}
           width={460}
           height={288}
-          className="h-72 w-full object-fill"
+          className="min-h-[312px] w-full object-contain"
         />
 
         <div className="relative p-4 ">
