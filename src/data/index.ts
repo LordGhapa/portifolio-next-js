@@ -85,7 +85,7 @@ export const data2 = [
     git: "https://github.com/LordGhapa/blog-with-nextjs",
     youtube: "https://github.com/",
     link: "https://ia-historietas.vercel.app/",
-    text: `" Blog criado usando Static Site Generation (SSG) do NextJS com histórias infantis gerada que foram geradas por uma inteligência artificial e um sistema de comentários para cada post, as informações estão vindo de uma API em GraphQL criada usando o CMS Strapi. O principal desafio foi criar uma lógica para gerar páginas estáticas e componentes que funcionam tanto com 1 ou 100+ posts."`,
+    text: `Blog criado usando Static Site Generation (SSG) do NextJS com histórias infantis gerada que foram geradas por uma inteligência artificial e um sistema de comentários para cada post, as informações estão vindo de uma API em GraphQL criada usando o CMS Strapi. O principal desafio foi criar uma lógica para gerar páginas estáticas e componentes que funcionam tanto com 1 ou 100+ posts.`,
     resume: "Resumo",
     tags: [
       "JavaScript",

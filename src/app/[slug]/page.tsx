@@ -42,11 +42,11 @@ export default function Project({ params: { slug } }: ProjectProps) {
             </div>
           ))}
         </div>
-        <div className="texto flex flex-col gap-1">
+        <div className="texto mt-2 flex flex-col gap-1">
           <h1 className="text-center text-xl font-semibold   text-white">
             {info.title}
           </h1>
-          <p className=" p-2 leading-relaxed text-white">{info.text}</p>
+          <p className=" p-2 text-lg leading-loose text-white">{info.text}</p>
         </div>
       </div>
 

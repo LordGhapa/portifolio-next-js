@@ -12,7 +12,7 @@ export default function DesktopLinks() {
               href={el.href}
               className="flex h-auto w-auto cursor-pointer flex-row items-center "
             >
-              <p className="text-base font-semibold tracking-wider text-white">
+              <p className="text-base font-semibold tracking-wider text-white transition-all duration-100 hover:scale-105 hover:text-purple-300">
                 {el.name}
               </p>
             </Link>
