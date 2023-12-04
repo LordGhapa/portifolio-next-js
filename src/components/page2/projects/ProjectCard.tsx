@@ -21,9 +21,9 @@ export default function ProjectCard({
         <Image
           src={src}
           alt={title}
-          height={340}
           width={460}
-          className="w-full object-contain"
+          height={288}
+          className="h-72 w-full object-fill"
         />
 
         <div className="relative p-4 ">
