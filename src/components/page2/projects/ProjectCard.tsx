@@ -16,14 +16,14 @@ export default function ProjectCard({
   link,
 }: ProjectCardProps) {
   return (
-    <div className="card relative w-full overflow-hidden rounded-lg border border-[#2A0E61] bg-gray-950/50 shadow-lg transition-all duration-300 ease-in-out hover:border-[#7042f88b] lg:w-[30%]">
+    <div className="card relative  w-full overflow-hidden rounded-lg border border-[#2A0E61] bg-gray-950/50 shadow-lg transition-all duration-300 ease-in-out hover:border-[#7042f88b] lg:min-h-[330px] lg:w-[30%] ">
       <Link href={link}>
         <Image
           src={src}
           alt={title}
           width={460}
           height={288}
-          className="min-h-[312px] w-full object-contain"
+          className="w-full object-contain xl:min-h-[320px] "
         />
 
         <div className="relative p-4 ">

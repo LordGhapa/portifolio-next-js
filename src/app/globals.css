@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 
 button {
   transition: all 300ms ease-in-out;
@@ -23,7 +26,7 @@ div:has(.modal:hover) .modal:not(:hover) {
 
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  
+
   background-color: #2a0e61;
 }
 
@@ -86,13 +89,18 @@ div:has(.modal:hover) .modal:not(:hover) {
 }
 
 .scrollbar-hidden {
-  -ms-overflow-style: none; 
-  scrollbar-width: none; 
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;
 }
 
-html {
-  scroll-behavior: smooth;
+.underline {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #8855ff;
 }
