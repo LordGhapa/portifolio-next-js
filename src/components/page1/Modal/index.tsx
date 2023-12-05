@@ -1,5 +1,6 @@
 import { AiFillCloseCircle } from "react-icons/ai";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 
 const HtmlComponent = dynamic(
   async () => await import("../HtmlComponent/index"),
@@ -37,7 +38,7 @@ const Modal = ({
           htmlFor={id}
           className="cursor-pointer rounded bg-black py-4 text-white active:bg-slate-400"
         >
-          <img
+          <Image
             width={291}
             height={212}
             src={img}
@@ -70,7 +71,7 @@ const Modal = ({
           >
             <AiFillCloseCircle size={24} />
           </label>
-          <img
+          <Image
             width={293}
             height={214}
             src={img}

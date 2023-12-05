@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Hero = () => {
   return (
     <main>
@@ -40,7 +42,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <img
+          <Image
             width={473}
             height={289}
             className="h-auto max-h-[289px] w-full max-w-[473px] "
