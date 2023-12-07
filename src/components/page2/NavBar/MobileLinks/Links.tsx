@@ -34,7 +34,7 @@ export default function Links({ func }: LinksProps) {
             <React.Fragment key={index}>
               <Link
                 onClick={func}
-                href={data.href}
+                href={`/${data.href}`}
                 className="z-10 text-4xl  font-semibold text-white transition-all duration-300 hover:scale-105"
               >
                 {data.name}

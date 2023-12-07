@@ -1,11 +1,17 @@
 "use client";
 import { dataMenu } from "@/data";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
+import { usePathname } from "next/navigation";
 export default function DesktopLinks() {
   const [selectedTab, setSelectedTab] = useState(dataMenu[0]);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    if (pathname !== "/") setSelectedTab(dataMenu[2]);
+  });
 
   return (
     <>
@@ -13,7 +19,7 @@ export default function DesktopLinks() {
         {dataMenu.map((el, index) => (
           <React.Fragment key={index}>
             <Link
-              href={el.href}
+              href={`${pathname !== "/" ? "/" : ""}${el.href}`}
               className="relative flex h-auto w-auto cursor-pointer flex-row items-center "
               onClick={() => {
                 setSelectedTab(el);

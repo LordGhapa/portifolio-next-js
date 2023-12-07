@@ -20,7 +20,7 @@ export default function ProjectCard({
       <Link href={link}>
         <Image
           src={src}
-          alt={title}
+          alt={`imagem do projeto ${title}`}
           width={460}
           height={288}
           className="w-full object-contain xl:min-h-[320px] "
