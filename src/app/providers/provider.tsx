@@ -37,9 +37,6 @@ export const ContextProvider = ({ children }: any) => {
     });
 
     // To disable the entire IntersectionObserver
-    return () => {
-      observer.disconnect();
-    };
   }, []);
 
   const refCallback = useCallback((element: never) => {
