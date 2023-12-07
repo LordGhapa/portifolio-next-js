@@ -17,9 +17,8 @@ export const ContextProvider = ({ children }: any) => {
 
   useEffect(() => {
     const options = {
-      threshold: 0.1,
-      rootMargin: "0px",
-      delay: "1000",
+      threshold: 0.5,
+      rootMargin: "70px",
     };
 
     const observer = new IntersectionObserver((entries) => {
