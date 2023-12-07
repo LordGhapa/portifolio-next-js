@@ -41,6 +41,7 @@ export default function SkillCard({ src, width, height, index, text }: Props) {
         height={height}
         alt="skill image"
         className="h-[150px] w-auto"
+        style={{ height: "auto" }}
       />
       <p className="text-white">{text}</p>
     </motion.div>

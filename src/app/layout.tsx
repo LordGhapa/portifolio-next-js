@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { Inter, Lato } from "next/font/google";
 import Navbar from "@/components/page2/NavBar";
 import Footer from "@/components/page2/Footer";
+import { ContextProvider } from "./providers/provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,8 +39,10 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={`${inter.className}  overflow-x-hidden bg-[#030014]`}>
         <StarsCanvas />
-        <Navbar />
-        {children}
+        <ContextProvider>
+          <Navbar />
+          {children}
+        </ContextProvider>
         <Footer />
       </body>
     </html>

@@ -5,13 +5,23 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 import { usePathname } from "next/navigation";
+import { useStateContext } from "@/app/providers/provider";
 export default function DesktopLinks() {
   const [selectedTab, setSelectedTab] = useState(dataMenu[0]);
   const pathname = usePathname();
 
+  const { visibleSection }: any = useStateContext();
+
+  useEffect(() => {
+    if (visibleSection === "inicio") setSelectedTab(dataMenu[0]);
+    if (visibleSection === "habilidades") setSelectedTab(dataMenu[1]);
+    if (visibleSection === "projetos") setSelectedTab(dataMenu[2]);
+    if (visibleSection === "sobre") setSelectedTab(dataMenu[3]);
+  }, [visibleSection]);
+
   useEffect(() => {
     if (pathname !== "/") setSelectedTab(dataMenu[2]);
-  });
+  }, [pathname]);
 
   return (
     <>

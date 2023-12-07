@@ -3,13 +3,16 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { slideInFromLeft } from "../../../../utils/motion";
+import { useStateContext } from "@/app/providers/provider";
 
 export default function About() {
+  const { refCallback }: any = useStateContext();
   return (
     <>
       <section
         id="sobre"
         className=" z-20 mx-auto flex w-full flex-col items-center justify-center pb-10 md:px-2"
+        ref={refCallback}
       >
         <div className="container flex h-full w-full flex-col items-center justify-center gap-8 rounded-lg bg-gray-950/50 px-2 py-10 pb-9 md:justify-between lg:flex-row lg:py-16 xl:pr-20 ">
           <Image

@@ -1,3 +1,4 @@
+"use client";
 import About from "@/components/page2/About";
 import Hero from "@/components/page2/Hero";
 import Projects from "@/components/page2/projects";
