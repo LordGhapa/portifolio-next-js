@@ -19,7 +19,6 @@ export const ContextProvider = ({ children }: any) => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const pathname = usePathname();
 
-
   useEffect(() => {
     const options = {
       threshold: 0.5,
