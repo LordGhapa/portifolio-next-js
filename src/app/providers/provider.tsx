@@ -22,7 +22,7 @@ export const ContextProvider = ({ children }: any) => {
   useEffect(() => {
     const options = {
       threshold: 0.5,
-      rootMargin: "70px",
+      rootMargin: "0px",
     };
 
     const observer = new IntersectionObserver((entries) => {
