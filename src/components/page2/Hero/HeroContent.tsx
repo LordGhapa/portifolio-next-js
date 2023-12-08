@@ -66,7 +66,7 @@ export default function HeroContent() {
           </Link>
           <Link
             target="_blank"
-            href="https://docs.google.com/document/d/1f2AvtA-B474p7bU9rTQ4PnzbaBuy6keKNxuNtGzWSkA"
+            href="https://drive.google.com/file/d/1Yeb37Kz45OTpU3MlMcvrtm_JYPDTTKqP/view"
             className="button-primary w-full max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white transition-all duration-100 hover:scale-105"
           >
             Currículo
