@@ -1,4 +1,5 @@
 "use client";
+import { usePathname } from "next/navigation";
 import {
   createContext,
   useCallback,
@@ -14,6 +15,10 @@ export const ContextProvider = ({ children }: any) => {
   const [visibleSection, setVisibleSection] = useState<string | null>();
   const sectionsRef = useRef([]);
   const headerRef = useRef(null);
+
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const pathname = usePathname();
+
 
   useEffect(() => {
     const options = {
@@ -37,7 +42,7 @@ export const ContextProvider = ({ children }: any) => {
     });
 
     // To disable the entire IntersectionObserver
-  }, []);
+  });
 
   const refCallback = useCallback((element: never) => {
     if (element) {
