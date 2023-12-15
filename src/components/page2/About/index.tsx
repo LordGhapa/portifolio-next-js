@@ -49,7 +49,7 @@ export default function About() {
               </Link>
               <Link
                 target="_blank"
-                href="https://drive.google.com/file/d/1Yeb37Kz45OTpU3MlMcvrtm_JYPDTTKqP/view"
+                href="https://drive.google.com/file/d/1PwyWyf-6Bm5pNX7kZvEAnL24olWdGYnW/view?usp=sharing"
                 className="button-primary w-full max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white transition-all duration-100 hover:scale-105"
               >
                 Currículo
