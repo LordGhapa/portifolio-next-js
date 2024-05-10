@@ -1,10 +1,10 @@
-import StarsCanvas from "@/components/page2/StarBackground";
+import StarsCanvas from "@/components/StarBackground";
 import "./globals.css";
 import type { Metadata } from "next";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Inter, Lato } from "next/font/google";
-import Navbar from "@/components/page2/NavBar";
-import Footer from "@/components/page2/Footer";
+import Navbar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 import { ContextProvider } from "./providers/provider";
 
 const inter = Inter({ subsets: ["latin"] });

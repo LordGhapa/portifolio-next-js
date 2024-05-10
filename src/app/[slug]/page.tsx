@@ -6,6 +6,7 @@ export function generateStaticParams() {
   const params = data2.map((data) => ({
     slug: data.id,
   }));
+  // console.log(params);
   return params;
 }
 
