@@ -4,7 +4,7 @@ import {
   slideInFromLeft,
   slideInFromRight,
   slideInFromTop,
-} from "../../../../utils/motion";
+} from "../../../utils/motion";
 import { RiSparklingFill } from "react-icons/ri";
 import Link from "next/link";
 import Image from "next/image";

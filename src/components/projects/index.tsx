@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import { data2 } from "../../../data";
+import { data2 } from "../../data";
 import React from "react";
 import { useStateContext } from "@/app/providers/provider";
 export default function Projects() {

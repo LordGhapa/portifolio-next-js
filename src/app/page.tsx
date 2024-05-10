@@ -1,8 +1,8 @@
 "use client";
-import About from "@/components/page2/About";
-import Hero from "@/components/page2/Hero";
-import Projects from "@/components/page2/projects";
-import Skills from "@/components/page2/Skills";
+import About from "@/components/About";
+import Hero from "@/components/Hero";
+import Projects from "@/components/projects";
+import Skills from "@/components/Skills";
 
 const Home = () => {
   return (

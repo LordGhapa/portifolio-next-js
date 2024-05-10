@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import StarsCanvas from "../../StarBackground";
 import { motion } from "framer-motion";
-import { menuSlide, slide } from "../../../../../utils/motion";
+import { menuSlide, slide } from "../../../../utils/motion";
 import Curve from "./Curve";
 interface LinksProps {
   func: () => void;
