@@ -17,7 +17,7 @@ interface Child {
   _key: string;
 }
 
-export interface Projects {
+export interface ProjectsModel {
   urlforimage: string;
   youtubeLink: string;
   projectLink: string;

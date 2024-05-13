@@ -1,9 +1,9 @@
-import { Projects } from "@/models";
+import { ProjectsModel } from "@/models";
 import { client } from "../../sanity/lib/client";
 import * as queries from "./sanityQueries";
 
 export async function getAllProjects() {
-  const result = await client.fetch<Projects[]>(
+  const result = await client.fetch<ProjectsModel[]>(
     queries.getAllProjects,
     {},
     { cache: "force-cache" },

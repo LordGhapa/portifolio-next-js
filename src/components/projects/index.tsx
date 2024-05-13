@@ -3,10 +3,10 @@ import ProjectCard2 from "./ProjectCard";
 import { data2 } from "../../data";
 import React from "react";
 import { useStateContext } from "@/app/(web)/providers/provider";
-import { Projects } from "@/models";
+import { ProjectsModel } from "@/models";
 
 interface ProjectsProps {
-  data: Projects[];
+  data: ProjectsModel[];
 }
 
 export default function Projects({ data }: ProjectsProps) {

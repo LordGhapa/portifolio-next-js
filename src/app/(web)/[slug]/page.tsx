@@ -1,4 +1,4 @@
-import { data2 } from "@/data";
+// import { data2 } from "@/data";
 import { getAllProjects } from "@/lib/apis";
 import Image from "next/image";
 import Link from "next/link";
