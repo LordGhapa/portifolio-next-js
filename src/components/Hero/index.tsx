@@ -1,4 +1,5 @@
-import { useStateContext } from "@/app/providers/provider";
+"use client"
+import { useStateContext } from "@/app/(web)/providers/provider";
 import HeroContent from "./HeroContent";
 
 export default function Hero() {

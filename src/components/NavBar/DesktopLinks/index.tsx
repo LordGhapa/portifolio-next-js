@@ -5,7 +5,8 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 import { usePathname } from "next/navigation";
-import { useStateContext } from "@/app/providers/provider";
+import { useStateContext } from "@/app/(web)/providers/provider";
+
 export default function DesktopLinks() {
   const [selectedTab, setSelectedTab] = useState(dataMenu[0]);
   const pathname = usePathname();

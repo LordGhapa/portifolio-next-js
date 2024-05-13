@@ -1,4 +1,5 @@
 /* eslint-disable */
+// @ts-nocheck
 "use client";
 
 import React, { useState, useRef, Suspense } from "react";
@@ -6,6 +7,8 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial } from "@react-three/drei";
 // @ts-expect-error
 import * as random from "maath/random/dist/maath-random.esm";
+
+
 /* MAIOR DESAFIO LER ARQUIVO QUE ESTA DENTRO DE NODE MODULES PARA RESOLVER O PROBLEMA POIS A FUNÇÃO ESPERA NUMERO MÚLTIPLO DE 3 */
 function StarBackground(props: any) {
   const ref: any = useRef();

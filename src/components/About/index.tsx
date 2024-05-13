@@ -2,8 +2,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { useStateContext } from "@/app/providers/provider";
+
 import { slideInFromLeft } from "../../../utils/motion";
+import { useStateContext } from "@/app/(web)/providers/provider";
 
 export default function About() {
   const { refCallback }: any = useStateContext();
