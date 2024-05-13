@@ -9,7 +9,7 @@ interface ProjectsProps {
 }
 
 export default function Projects({ data }: ProjectsProps) {
-  console.log(data);
+  // console.log(data);
   const { refCallback }: any = useStateContext();
 
   return (
@@ -23,7 +23,7 @@ export default function Projects({ data }: ProjectsProps) {
           Projetos
         </h2>
         <div className="cardsComponent  flex h-full w-full	max-w-[1536px] flex-col flex-wrap items-center justify-center gap-10 px-2  lg:flex-row">
-          {data.map((card, index) => (
+          {data.reverse().map((card, index) => (
             <React.Fragment key={index}>
               <ProjectCard2
                 src={card.urlforimage}
