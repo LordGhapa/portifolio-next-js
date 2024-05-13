@@ -2,7 +2,7 @@
 import { dataSkills } from "@/data";
 import SkillCard from "./SkillsCard";
 import React from "react";
-import { useStateContext } from "@/app/providers/provider";
+import { useStateContext } from "@/app/(web)/providers/provider";
 
 export default function Skills() {
   const { refCallback }: any = useStateContext();
