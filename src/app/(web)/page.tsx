@@ -6,7 +6,7 @@ import { getAllProjects } from "@/lib/apis";
 
 export default async function Home() {
   const data = await getAllProjects();
-  
+
   return (
     <>
       <main className="  z-20 h-full w-full">

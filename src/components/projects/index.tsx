@@ -5,12 +5,12 @@ import React from "react";
 import { useStateContext } from "@/app/(web)/providers/provider";
 import { Projects } from "@/models";
 
-interface ProjectsProps{
-  data:Projects[]
+interface ProjectsProps {
+  data: Projects[];
 }
 
-export default function Projects({ data }:ProjectsProps) {
-console.log(data)
+export default function Projects({ data }: ProjectsProps) {
+  console.log(data);
   const { refCallback }: any = useStateContext();
 
   return (

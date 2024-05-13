@@ -16,14 +16,11 @@ export default function ProjectCard({
   desc,
   link,
 }: ProjectCardProps) {
- 
-  
   return (
     <div className="card relative  w-full overflow-hidden rounded-lg border border-[#2A0E61] bg-gray-950/50 shadow-lg transition-all duration-300 ease-in-out hover:border-[#7042f88b] lg:min-h-[330px] lg:w-[30%] ">
       <Link href={link}>
         <Image
-         
-           src={urlFor(src).url()}
+          src={urlFor(src).url()}
           alt={`imagem do projeto ${title}`}
           width={460}
           height={288}

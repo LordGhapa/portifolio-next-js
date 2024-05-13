@@ -5,7 +5,7 @@ export default {
   title: "Tags",
   type: "document",
   fields: [
- defineField({
+    defineField({
       name: "name",
       title: "Name",
       type: "string",

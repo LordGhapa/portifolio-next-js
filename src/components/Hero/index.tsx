@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useStateContext } from "@/app/(web)/providers/provider";
 import HeroContent from "./HeroContent";
 

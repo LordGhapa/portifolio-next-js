@@ -4,5 +4,5 @@ import tags from "./schema/tags";
 import category from "./schema/category";
 
 export const schema: { types: SchemaTypeDefinition[] } = {
-  types: [post,tags,category],
+  types: [post, tags, category],
 };

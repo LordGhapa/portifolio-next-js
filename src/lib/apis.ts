@@ -7,10 +7,9 @@ export async function getAllProjects() {
     queries.getAllProjects,
     {},
     { cache: "force-cache" },
-    // {next:{revalidate:1800} }, 
-    //   { cache: "no-cache" } 
+    // {next:{revalidate:1800} },
+    //   { cache: "no-cache" }
   );
 
   return result;
 }
-
