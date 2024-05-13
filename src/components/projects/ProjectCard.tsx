@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { urlFor, urlForImage } from "../../../sanity/lib/image";
+import { urlFor } from "../../../sanity/lib/image";
 
 interface ProjectCardProps {
   src: string;

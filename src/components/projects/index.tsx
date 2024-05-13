@@ -1,6 +1,5 @@
 "use client";
 import ProjectCard2 from "./ProjectCard";
-import { data2 } from "../../data";
 import React from "react";
 import { useStateContext } from "@/app/(web)/providers/provider";
 import { ProjectsModel } from "@/models";
