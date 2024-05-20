@@ -5,6 +5,8 @@ import Link from "next/link";
 import { urlFor } from "../../../../sanity/lib/image";
 import { PortableText } from "@portabletext/react";
 
+import ButtonBackPage from "@/components/ButtonBackPage";
+
 export async function generateStaticParams() {
   const data = await getAllProjects();
   const params = data.map((data) => ({
@@ -24,12 +26,12 @@ export default async function Project({ params: { slug } }: ProjectProps) {
   );
   // const info = data2.filter((data) => data.id === slug)[0];
   // console.log(info);
+
   return (
     <main className="z-20  mb-10 mt-20 flex min-h-screen flex-col items-center justify-center gap-8 px-2 md:flex-row md:items-start">
       <div className="textos z-20 flex w-full max-w-3xl flex-col gap-2 overflow-hidden  rounded-2xl   bg-slate-900/70">
         <div className="imagem  relative flex min-h-[200px] w-full items-center justify-center bg-gradient-to-r from-purple-500 to-cyan-500 p-6">
-          <Link
-            href={"/#projetos"}
+          <ButtonBackPage
             className="absolute left-3 top-3 z-20  rounded-lg bg-slate-900 p-1"
             aria-label="voltar seção de projetos"
           >
@@ -40,7 +42,7 @@ export default async function Project({ params: { slug } }: ProjectProps) {
               height={12}
               className=" h-full w-full "
             />
-          </Link>
+          </ButtonBackPage>
           <Image
             src={urlFor(info.urlforimage).url()}
             alt={`imagen do projeto`}

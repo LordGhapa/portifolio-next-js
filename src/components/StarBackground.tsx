@@ -39,7 +39,7 @@ type StarsCanvasProps = {
   value?: number;
 };
 const StarsCanvas = ({ className, value }: StarsCanvasProps) => (
-  <div className={`fixed inset-0 z-[1] h-auto w-full ${className}`}>
+  <div className={`fixed inset-0 h-auto w-full ${className}`}>
     <Canvas camera={{ position: [0, 0, 1] }}>
       <Suspense fallback={null}>
         <StarBackground value={value} />
