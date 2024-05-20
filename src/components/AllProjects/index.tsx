@@ -38,7 +38,7 @@ export default function AllProjects({ data }: AllProjectsProps) {
             <h2 className="bg-clip-text pb-4 pt-7 text-center  text-5xl font-semibold text-white ">
               {category}
             </h2>
-            <div className="cardsComponent  flex h-full w-full	max-w-[1536px] flex-col flex-wrap items-center justify-center  gap-10 px-2  lg:flex-row">
+            <div className="cardsComponent  mx-auto flex h-full	w-full max-w-[1536px] flex-col flex-wrap items-center   gap-10 px-2  lg:flex-row">
               {items}
             </div>
           </div>
