@@ -21,6 +21,7 @@ export interface ProjectsModel {
   urlforimage: string;
   youtubeLink: string;
   projectLink: string;
+  priority: boolean;
   tags: Tag[];
   fullDescription: Block[];
   githubLink: string;

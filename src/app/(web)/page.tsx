@@ -5,7 +5,9 @@ import Skills from "@/components/Skills";
 import { getAllProjects } from "@/lib/apis";
 
 export default async function Home() {
-  const data = await getAllProjects();
+  const data = await getAllProjects().then((res) =>
+    res.sort((a, b) => Number(b?.priority) - Number(a?.priority)).slice(0, 6),
+  );
 
   return (
     <>

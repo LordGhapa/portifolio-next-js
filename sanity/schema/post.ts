@@ -13,6 +13,12 @@ export default {
     },
 
     defineField({
+      name: "priority",
+      title: "prioritario",
+      type: "boolean",
+      initialValue: false,
+    }),
+    defineField({
       name: "category",
       title: "categorias",
       type: "array",
