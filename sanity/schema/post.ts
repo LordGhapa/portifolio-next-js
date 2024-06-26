@@ -74,8 +74,7 @@ export default {
       name: "projectLink",
       title: "Link do projeto",
       type: "url",
-      description: "Link para ver o projeto no ar",
-      validation: (Rule: any) => Rule.required(),
+      description: "Link para ver o projeto no ar",    
     },
     {
       name: "githubLink",
