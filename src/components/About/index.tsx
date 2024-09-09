@@ -50,7 +50,7 @@ export default function About() {
               </Link>
               <Link
                 target="_blank"
-                href="https://drive.google.com/file/d/1PwyWyf-6Bm5pNX7kZvEAnL24olWdGYnW/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ZjvDPdwaIPbYb_HNpUTJQ-T7RUgOkkmt/view"
                 className="button-primary w-full max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white transition-all duration-100 hover:scale-105"
               >
                 Currículo
