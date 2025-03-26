@@ -11,7 +11,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={`${inter.className} ${lato.className} `}>{children}</body>
+      <body className={`${inter.className} ${lato.className}`}>{children}</body>
     </html>
   );
 }

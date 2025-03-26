@@ -17,10 +17,16 @@ export async function generateStaticParams() {
 }
 
 interface ProjectProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
-export default async function Project({ params: { slug } }: ProjectProps) {
+export default async function Project(props: ProjectProps) {
+  const params = await props.params;
+
+  const {
+    slug
+  } = params;
+
   const info = await getAllProjects().then(
     (r) => r.filter((data) => data.slug === slug)[0],
   );
