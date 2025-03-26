@@ -30,7 +30,7 @@ export default async function Project({ params: { slug } }: ProjectProps) {
   return (
     <main className="z-20  mb-10 mt-20 flex min-h-screen flex-col items-center justify-center gap-8 px-2 md:flex-row md:items-start">
       <div className="textos z-20 flex w-full max-w-3xl flex-col gap-2 overflow-hidden  rounded-2xl   bg-slate-900/70">
-        <div className="imagem  relative flex min-h-[200px] w-full items-center justify-center bg-gradient-to-r from-purple-500 to-cyan-500 p-6">
+        <div className="imagem  relative flex min-h-[200px] w-full items-center justify-center bg-linear-to-r from-purple-500 to-cyan-500 p-6">
           <ButtonBackPage
             className="absolute left-3 top-3 z-20  rounded-lg bg-slate-900 p-1"
             aria-label="voltar seção de projetos"
@@ -55,7 +55,7 @@ export default async function Project({ params: { slug } }: ProjectProps) {
           {info.tags.map((data, index) => (
             <div
               key={index}
-              className="w-fit rounded bg-gray-500 p-1 text-xs capitalize text-white"
+              className="w-fit rounded-sm bg-gray-500 p-1 text-xs capitalize text-white"
             >
               {data.name}
             </div>

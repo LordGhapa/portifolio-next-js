@@ -24,7 +24,7 @@ export default function About() {
             className="mx-auto w-1/2 max-w-[200px] rounded-full bg-gray-950 md:max-w-[300px] lg:max-w-[350px]"
           />
           <div className="w-full lg:w-1/2">
-            <h2 className="text-clip bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text  text-base font-semibold text-transparent">
+            <h2 className="text-clip bg-linear-to-r from-purple-500 to-cyan-500 bg-clip-text  text-base font-semibold text-transparent">
               Sobre Mim
             </h2>
             <h3 className="mb-4 text-2xl font-semibold text-white">

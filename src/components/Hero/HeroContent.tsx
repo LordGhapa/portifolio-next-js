@@ -32,7 +32,7 @@ export default function HeroContent() {
           className="font-bold text-white lg:max-w-[600px]  "
         >
           <span className="flex flex-col ">
-            <span className="bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-center text-4xl text-transparent lg:text-left lg:text-6xl">
+            <span className="bg-linear-to-r from-purple-500 to-cyan-500 bg-clip-text text-center text-4xl text-transparent lg:text-left lg:text-6xl">
               {" "}
               Felipe Lacerda{" "}
             </span>

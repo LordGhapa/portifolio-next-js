@@ -7,7 +7,7 @@ import Navbar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import { ContextProvider } from "./providers/provider";
 
-const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   title: "Felipe Lacerda Portfolio",
@@ -30,21 +30,21 @@ export const metadata: Metadata = {
   generator: "Next.js",
 };
 
-export default function RootLayout({
+export default function Layout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-BR">
-      <body className={`${inter.className}  overflow-x-hidden bg-[#030014]`}>
+
+      <div className='overflow-x-hidden bg-[#030014]'>
         <StarsCanvas />
         <ContextProvider>
           <Navbar />
           {children}
         </ContextProvider>
         <Footer />
-      </body>
-    </html>
+      </div>
+   
   );
 }

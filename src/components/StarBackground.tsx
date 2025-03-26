@@ -6,7 +6,7 @@ import { Points, PointMaterial } from "@react-three/drei";
 import { inSphere } from "maath/random";
 
 function StarBackground(props: any) {
-  const ref: any = useRef();
+  const ref: any = useRef(null);
   const [sphere] = useState(() =>
   inSphere(new Float32Array(props.value ?? 5001), { radius: 1.2 }),
   );
