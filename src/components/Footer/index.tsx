@@ -7,7 +7,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
   return (
     <>
-      <footer className="flex  w-full justify-center border-t border-[#7042f861]">
+      <footer className="flex w-full justify-center border-t border-[#7042f861]">
         <div className="z-20 flex w-full max-w-7xl flex-col items-center justify-between gap-2 py-5 sm:flex-row sm:px-2">
           <p className="z-20 text-white">
             feito por Felipe Lacerda {currentYear}

@@ -23,9 +23,7 @@ interface ProjectProps {
 export default async function Project(props: ProjectProps) {
   const params = await props.params;
 
-  const {
-    slug
-  } = params;
+  const { slug } = params;
 
   const info = await getAllProjects().then(
     (r) => r.filter((data) => data.slug === slug)[0],
@@ -34,11 +32,11 @@ export default async function Project(props: ProjectProps) {
   // console.log(info);
 
   return (
-    <main className="z-20  mb-10 mt-20 flex min-h-screen flex-col items-center justify-center gap-8 px-2 md:flex-row md:items-start">
-      <div className="textos z-20 flex w-full max-w-3xl flex-col gap-2 overflow-hidden  rounded-2xl   bg-slate-900/70">
-        <div className="imagem  relative flex min-h-[200px] w-full items-center justify-center bg-linear-to-r from-purple-500 to-cyan-500 p-6">
+    <main className="z-20 mt-20 mb-10 flex min-h-screen flex-col items-center justify-center gap-8 px-2 md:flex-row md:items-start">
+      <div className="textos z-20 flex w-full max-w-3xl flex-col gap-2 overflow-hidden rounded-2xl bg-slate-900/70">
+        <div className="imagem relative flex min-h-[200px] w-full items-center justify-center bg-linear-to-r from-purple-500 to-cyan-500 p-6">
           <ButtonBackPage
-            className="absolute left-3 top-3 z-20  rounded-lg bg-slate-900 p-1"
+            className="absolute top-3 left-3 z-20 rounded-lg bg-slate-900 p-1"
             aria-label="voltar seção de projetos"
           >
             <Image
@@ -46,7 +44,7 @@ export default async function Project(props: ProjectProps) {
               alt="ArrowLeft"
               width={12}
               height={12}
-              className=" h-full w-full "
+              className="h-full w-full"
             />
           </ButtonBackPage>
           <Image
@@ -61,24 +59,24 @@ export default async function Project(props: ProjectProps) {
           {info.tags.map((data, index) => (
             <div
               key={index}
-              className="w-fit rounded-sm bg-gray-500 p-1 text-xs capitalize text-white"
+              className="w-fit rounded-sm bg-gray-500 p-1 text-xs text-white capitalize"
             >
               {data.name}
             </div>
           ))}
         </div>
         <div className="texto mt-2 flex flex-col gap-1">
-          <h1 className="text-center text-xl font-semibold   text-white">
+          <h1 className="text-center text-xl font-semibold text-white">
             {info.projectName}
           </h1>
 
-          <div className=" p-2 text-lg leading-relaxed text-white">
+          <div className="p-2 text-lg leading-relaxed text-white">
             <PortableText value={info.fullDescription} components={{}} />
           </div>
         </div>
       </div>
 
-      <div className=" links z-20 flex h-fit w-full max-w-sm flex-col items-center  gap-6 rounded-2xl bg-slate-900/70 p-6">
+      <div className="links z-20 flex h-fit w-full max-w-sm flex-col items-center gap-6 rounded-2xl bg-slate-900/70 p-6">
         <h2 className="text-xl text-white">De uma olhada no projeto</h2>
         <div className="link-containers flex w-full flex-col gap-6">
           {info.projectLink && (
@@ -86,7 +84,7 @@ export default async function Project(props: ProjectProps) {
               href={info.projectLink}
               target="_blank"
               aria-label="link do projeto"
-              className="flex items-center justify-between  rounded-xl bg-purple-600 px-6 py-4 transition-all duration-100 hover:scale-105"
+              className="flex items-center justify-between rounded-xl bg-purple-600 px-6 py-4 transition-all duration-100 hover:scale-105"
             >
               <Image alt="globo" src="/Globe.svg" height={24} width={24} />
               <p className="text-base text-white">Site</p>
@@ -104,7 +102,7 @@ export default async function Project(props: ProjectProps) {
               href={info.githubLink}
               target="_blank"
               aria-label="link do codigo"
-              className="flex items-center justify-between  rounded-xl bg-zinc-700 px-6 py-4 transition-all duration-100 hover:scale-105"
+              className="flex items-center justify-between rounded-xl bg-zinc-700 px-6 py-4 transition-all duration-100 hover:scale-105"
             >
               <Image
                 alt="globo"
@@ -126,7 +124,7 @@ export default async function Project(props: ProjectProps) {
               href={info.youtubeLink}
               target="_blank"
               aria-label="link do codigo"
-              className="flex items-center justify-between  rounded-xl bg-red-800 px-6 py-4 transition-all duration-100 hover:scale-105"
+              className="flex items-center justify-between rounded-xl bg-red-800 px-6 py-4 transition-all duration-100 hover:scale-105"
             >
               <Image
                 alt="globo"

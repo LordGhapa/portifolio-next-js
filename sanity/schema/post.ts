@@ -74,7 +74,7 @@ export default {
       name: "projectLink",
       title: "Link do projeto",
       type: "url",
-      description: "Link para ver o projeto no ar",    
+      description: "Link para ver o projeto no ar",
     },
     {
       name: "githubLink",

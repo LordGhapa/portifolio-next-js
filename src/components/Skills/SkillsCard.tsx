@@ -33,7 +33,7 @@ export default function SkillCard({ src, width, height, index, text }: Props) {
       animate={inView ? "visible" : "hidden"}
       custom={index}
       transition={{ delay: index * animationDelay }}
-      className="flex flex-col items-center gap-2 "
+      className="flex flex-col items-center gap-2"
     >
       <Image
         src={src}

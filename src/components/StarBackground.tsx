@@ -8,7 +8,7 @@ import { inSphere } from "maath/random";
 function StarBackground(props: any) {
   const ref: any = useRef(null);
   const [sphere] = useState(() =>
-  inSphere(new Float32Array(props.value ?? 5001), { radius: 1.2 }),
+    inSphere(new Float32Array(props.value ?? 5001), { radius: 1.2 }),
   );
 
   useFrame((state, delta) => {

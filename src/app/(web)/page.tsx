@@ -11,8 +11,8 @@ export default async function Home() {
 
   return (
     <>
-      <main className="  z-20 h-full w-full">
-        <div className="z-20 flex flex-col ">
+      <main className="z-20 h-full w-full">
+        <div className="z-20 flex flex-col">
           <Hero />
           <Skills />
           <Projects data={data} />

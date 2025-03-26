@@ -10,10 +10,10 @@ export default function Skills() {
     <>
       <section
         id="habilidades"
-        className="container z-20 mx-auto flex w-full flex-col items-center justify-center py-20 "
+        className="z-20 container mx-auto flex w-full flex-col items-center justify-center py-20"
         ref={refCallback}
       >
-        <h2 className="text-clip  bg-linear-to-r from-purple-500 to-cyan-500 bg-clip-text pb-10 text-5xl font-semibold text-transparent">
+        <h2 className="bg-linear-to-r from-purple-500 to-cyan-500 bg-clip-text pb-10 text-5xl font-semibold text-clip text-transparent">
           Habilidades
         </h2>
         <div className="flex flex-wrap justify-center">

@@ -19,7 +19,7 @@ export default function AllProjects({ data }: AllProjectsProps) {
   }
 
   return (
-    <div className="z-20 py-20 ">
+    <div className="z-20 py-20">
       {categories.map((category: string) => {
         const filteredProjects = filterProjectsByCategory(category);
         const items = filteredProjects.map((data) => (
@@ -35,10 +35,10 @@ export default function AllProjects({ data }: AllProjectsProps) {
         ));
         return (
           <div key={category}>
-            <h2 className="bg-clip-text pb-4 pt-7 text-center  text-5xl font-semibold text-white ">
+            <h2 className="bg-clip-text pt-7 pb-4 text-center text-5xl font-semibold text-white">
               {category}
             </h2>
-            <div className="cardsComponent  mx-auto flex h-full	w-full max-w-[1536px] flex-col flex-wrap items-center   gap-10 px-2  lg:flex-row">
+            <div className="cardsComponent mx-auto flex h-full w-full max-w-[1536px] flex-col flex-wrap items-center gap-10 px-2 lg:flex-row">
               {items}
             </div>
           </div>

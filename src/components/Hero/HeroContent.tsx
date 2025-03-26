@@ -14,24 +14,24 @@ export default function HeroContent() {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="container z-20 mx-auto  flex h-full w-full max-w-7xl flex-col items-center justify-center px-5 pt-20 max-[375px]:max-w-[320px] max-[320px]:mt-0 lg:flex-row lg:pt-0 "
+      className="z-20 container mx-auto flex h-full w-full max-w-7xl flex-col items-center justify-center px-5 pt-20 max-[375px]:max-w-[320px] max-[320px]:mt-0 lg:flex-row lg:pt-0"
     >
       <div className="mx-auto flex h-full w-full flex-col items-center justify-center gap-5 text-start lg:items-start">
         <motion.div
-          className="Welcome-box border border-[#7042f88b] px-4 py-4  opacity-90"
+          className="Welcome-box border border-[#7042f88b] px-4 py-4 opacity-90"
           variants={slideInFromTop}
         >
-          <RiSparklingFill className=" mr-1 h-5 w-5 text-[#b49bff] " />
-          <h1 className="Welcome-text text-[13px] ">
+          <RiSparklingFill className="mr-1 h-5 w-5 text-[#b49bff]" />
+          <h1 className="Welcome-text text-[13px]">
             Desenvolvedor Front-End Portfolio
           </h1>
         </motion.div>
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="font-bold text-white lg:max-w-[600px]  "
+          className="font-bold text-white lg:max-w-[600px]"
         >
-          <span className="flex flex-col ">
+          <span className="flex flex-col">
             <span className="bg-linear-to-r from-purple-500 to-cyan-500 bg-clip-text text-center text-4xl text-transparent lg:text-left lg:text-6xl">
               {" "}
               Felipe Lacerda{" "}
@@ -44,7 +44,7 @@ export default function HeroContent() {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className=" max-w-[600px]  text-center text-base text-gray-300 md:text-lg lg:max-w-[450px] lg:text-left xl:max-w-[600px]"
+          className="max-w-[600px] text-center text-base text-gray-300 md:text-lg lg:max-w-[450px] lg:text-left xl:max-w-[600px]"
         >
           A minha jornada no mundo do desenvolvimento web começou com o{" "}
           <span className="font-bold">React</span> e o{" "}
@@ -55,7 +55,7 @@ export default function HeroContent() {
 
         <motion.div
           variants={slideInFromLeft(1)}
-          className="flex w-full  items-center justify-center gap-5 lg:justify-start "
+          className="flex w-full items-center justify-center gap-5 lg:justify-start"
         >
           <Link
             target="_blank"

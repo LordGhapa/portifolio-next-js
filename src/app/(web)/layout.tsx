@@ -7,8 +7,6 @@ import Navbar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import { ContextProvider } from "./providers/provider";
 
-
-
 export const metadata: Metadata = {
   title: "Felipe Lacerda Portfolio",
   description: "Felipe Lacerda Desenvolvedor Front-end Portfolio",
@@ -30,21 +28,15 @@ export const metadata: Metadata = {
   generator: "Next.js",
 };
 
-export default function Layout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-
-      <div className='overflow-x-hidden bg-[#030014]'>
-        <StarsCanvas />
-        <ContextProvider>
-          <Navbar />
-          {children}
-        </ContextProvider>
-        <Footer />
-      </div>
-   
+    <div className="overflow-x-hidden bg-[#030014]">
+      <StarsCanvas />
+      <ContextProvider>
+        <Navbar />
+        {children}
+      </ContextProvider>
+      <Footer />
+    </div>
   );
 }

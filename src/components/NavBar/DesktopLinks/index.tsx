@@ -26,12 +26,12 @@ export default function DesktopLinks() {
 
   return (
     <>
-      <div className="hidden justify-between gap-4  rounded-full border border-[#7042f861] bg-[#030014ad] px-5 py-2 md:flex">
+      <div className="hidden justify-between gap-4 rounded-full border border-[#7042f861] bg-[#030014ad] px-5 py-2 md:flex">
         {dataMenu.map((el, index) => (
           <React.Fragment key={index}>
             <Link
               href={`${pathname !== "/" ? "/" : ""}${el.href}`}
-              className="relative flex h-auto w-auto cursor-pointer flex-row items-center "
+              className="relative flex h-auto w-auto cursor-pointer flex-row items-center"
               onClick={() => {
                 setSelectedTab(el);
               }}
