@@ -3,19 +3,23 @@
 import { ProjectsModel } from "@/models";
 import ProjectCard from "../projects/ProjectCard";
 import React from "react";
+import { GetAllProjectsResult } from "../../../sanity.types";
 interface AllProjectsProps {
-  data: ProjectsModel[];
+  data: GetAllProjectsResult;
 }
 
 export default function AllProjects({ data }: AllProjectsProps) {
   const categories = [
     ...new Set(data.flatMap((item) => item?.category?.map((r) => r?.name))),
-  ];
+  ].filter((category): category is string => category !== undefined);
 
   function filterProjectsByCategory(categoryName: string): ProjectsModel[] {
-    return data.filter((project) =>
-      project.category.some((tag) => tag.name === categoryName),
-    );
+    return data
+      .filter(
+        (project) =>
+          project?.urlforimage !== null &&
+          project?.category?.some((tag) => tag.name === categoryName),
+      ) as ProjectsModel[];
   }
 
   return (
