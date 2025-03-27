@@ -57,7 +57,7 @@ export default async function Project(props: ProjectProps) {
           />
         </div>
         <div className="tags mb-2 flex flex-wrap gap-2">
-          {info.tags.map((data, index) => (
+          {info && info?.tags?.map((data, index) => (
             <div
               key={index}
               className="w-fit rounded-sm bg-gray-500 p-1 text-xs text-white capitalize"
