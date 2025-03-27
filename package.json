@@ -19,6 +19,7 @@
     "@sanity/react-loader": "^1.11.0",
     "@sanity/vision": "^3.81.0",
     "@tailwindcss/postcss": "^4.0.16",
+    "@vercel/speed-insights": "^1.2.0",
     "framer-motion": "^12.6.0",
     "lucide-react": "^0.484.0",
     "maath": "^0.10.8",

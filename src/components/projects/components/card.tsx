@@ -25,7 +25,7 @@ export default function ProjectCard({
   slug,
 }: ProjectCardProps) {
   const [isHovered, setIsHovered] = useState(false);
-  console.log("description", description);
+
 
   return (
     <Link href={`/projetos/${slug}`} className="block h-full">
