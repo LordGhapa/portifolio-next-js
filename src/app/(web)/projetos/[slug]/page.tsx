@@ -2,10 +2,11 @@
 import { getAllProjects } from "@/lib/apis";
 import Image from "next/image";
 import Link from "next/link";
-import { urlFor } from "../../../../sanity/lib/image";
+
 import { PortableText } from "@portabletext/react";
 
 import ButtonBackPage from "@/components/ButtonBackPage";
+import { urlFor } from "../../../../../sanity/lib/image";
 
 export async function generateStaticParams() {
   const data = await getAllProjects();

@@ -1,12 +1,14 @@
 "use client";
-import ProjectCard from "./ProjectCard";
+
 import React from "react";
 import { useStateContext } from "@/app/(web)/providers/provider";
-import { ProjectsModel } from "@/models";
+
 import Link from "next/link";
+import { GetAllProjectsResult } from "../../../sanity.types";
+import ProjectCard from "./components/card";
 
 interface ProjectsProps {
-  data: ProjectsModel[];
+  data: GetAllProjectsResult;
 }
 
 export default function Projects({ data }: ProjectsProps) {
@@ -24,20 +26,21 @@ export default function Projects({ data }: ProjectsProps) {
         </h2>
         <div className="cardsComponent flex h-full w-full max-w-[1536px] flex-col flex-wrap items-center justify-center gap-10 px-2 lg:flex-row">
           {data.map((card, index) => (
-            <React.Fragment key={index}>
-              <ProjectCard
-                src={card.urlforimage}
-                title={card.projectName}
-                link={card.slug}
-              />
-            </React.Fragment>
+            <ProjectCard
+              image={card.urlforimage ?? "/globe.svg"}
+              title={card.projectName}
+              slug={card.slug}
+              description={card.shortDescription}
+              technologies={card?.tags?.map((tag) => tag.name)}
+              key={index}
+            />
           ))}
-          <Link
+          {/* <Link
             href="/projetos"
             className="button-primary w-full max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white transition-all duration-100 hover:scale-105"
           >
             Ver Todos
-          </Link>
+          </Link> */}
         </div>
       </div>
     </>

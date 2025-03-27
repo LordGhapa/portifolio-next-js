@@ -59,6 +59,12 @@ export default {
       validation: (Rule: any) => Rule.required(),
     },
     {
+      name: "shortDescription",
+      title: "Descrição resumida",
+      type: "string",
+      validation: (Rule: any) => Rule.required(),
+    },
+    {
       name: "fullDescription",
       title: "Descrição completa",
       type: "array",
