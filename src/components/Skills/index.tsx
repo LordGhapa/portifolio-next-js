@@ -7,7 +7,6 @@ import SectionHeading from "../section-heading";
 
 import SkillsGrid from "./components/skills-grid";
 
-
 export default function Skills() {
   const { refCallback }: any = useStateContext();
   return (
@@ -17,12 +16,11 @@ export default function Skills() {
         className="z-20 container mx-auto flex w-full flex-col items-center justify-center py-20"
         ref={refCallback}
       >
-           <SectionHeading
-            title="Habilidades"
-            subtitle="Tecnologias e ferramentas que utilizo no meu dia a dia como desenvolvedor."
-          />
-          <SkillsGrid/>
-        
+        <SectionHeading
+          title="Habilidades"
+          subtitle="Tecnologias e ferramentas que utilizo no meu dia a dia como desenvolvedor."
+        />
+        <SkillsGrid />
       </section>
     </>
   );

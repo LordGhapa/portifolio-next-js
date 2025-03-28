@@ -1,24 +1,28 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 interface SectionHeadingProps {
-  title: string
-  subtitle?: string
-  align?: "left" | "center" | "right"
+  title: string;
+  subtitle?: string;
+  align?: "left" | "center" | "right";
 }
 
-export default function SectionHeading({ title, subtitle, align = "center" }: SectionHeadingProps) {
+export default function SectionHeading({
+  title,
+  subtitle,
+  align = "center",
+}: SectionHeadingProps) {
   const alignmentClasses = {
     left: "text-left",
     center: "text-center mx-auto",
     right: "text-right ml-auto",
-  }
+  };
 
   return (
     <div className={`mb-12 max-w-3xl ${alignmentClasses[align]}`}>
       <motion.h2
-        className="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-500 mb-4"
+        className="mb-4 bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-3xl font-bold text-transparent md:text-5xl"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -29,7 +33,7 @@ export default function SectionHeading({ title, subtitle, align = "center" }: Se
 
       {subtitle && (
         <motion.p
-          className="text-gray-300 font-sans text-base md:text-xl"
+          className="font-sans text-base text-gray-300 md:text-xl"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -39,6 +43,5 @@ export default function SectionHeading({ title, subtitle, align = "center" }: Se
         </motion.p>
       )}
     </div>
-  )
+  );
 }
-

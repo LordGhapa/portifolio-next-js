@@ -6,6 +6,7 @@ import { Inter, Lato } from "next/font/google";
 import Navbar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import { ContextProvider } from "./providers/provider";
+import ScrollToTop from "@/components/scroll-to-top";
 
 export const metadata: Metadata = {
   title: "Felipe Lacerda Portfolio",
@@ -36,6 +37,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <Navbar />
         {children}
       </ContextProvider>
+
+      <ScrollToTop />
       <Footer />
     </div>
   );

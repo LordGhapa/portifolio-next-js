@@ -15,7 +15,7 @@ export default function HeroContent() {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="z-20 container flex h-full w-full  flex-col items-center justify-center px-4 pt-20  xl:flex-row xl:pt-0"
+      className="z-20 container flex h-full w-full flex-col items-center justify-center px-4 pt-20 xl:flex-row xl:pt-0"
     >
       <div className="flex h-full w-full flex-col items-center justify-center gap-5 text-start xl:items-start">
         {/* BADGE COM ESTRELINHA */}
@@ -28,13 +28,13 @@ export default function HeroContent() {
             Desenvolvedor Front-End Portfolio
           </h1>
         </motion.div>
-{/* nome e função */}
+        {/* nome e função */}
         <motion.div
           variants={slideInFromLeft(0.5)}
           className="font-bold text-white"
         >
           <span className="flex flex-col">
-            <span className="bg-linear-to-r from-purple-500 to-cyan-500 bg-clip-text text-center text-4xl md:text-5xl lg:text-6xl text-transparent xl:text-left xl:text-[90px]">
+            <span className="bg-linear-to-r from-purple-500 to-cyan-500 bg-clip-text text-center text-4xl text-transparent md:text-5xl lg:text-6xl xl:text-left xl:text-[90px]">
               {" "}
               Felipe Lacerda{" "}
             </span>
@@ -46,7 +46,7 @@ export default function HeroContent() {
 
         <AnimatedText
           text="A minha jornada no mundo do desenvolvimento web começou com o React e o Next.js e desde então tenho trabalhado para aprimorar minhas habilidades e criar sites e aplicativos envolventes."
-          className="max-w-[768px] text-base md:text-xl xl:text-left text-center font-sans text-gray-300"
+          className="max-w-[768px] text-center font-sans text-base text-gray-300 md:text-xl xl:text-left"
           delay={0.2}
         />
 

@@ -1,12 +1,10 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-
+import { motion } from "framer-motion";
 
 interface SkillItemProps {
   icon: React.ReactNode;
-  name: string
-
+  name: string;
 }
 
 export default function SkillItem({ icon, name }: SkillItemProps) {
@@ -16,15 +14,10 @@ export default function SkillItem({ icon, name }: SkillItemProps) {
       whileHover={{ y: -5, scale: 1.05 }}
       transition={{ duration: 0.3 }}
     >
-      <div
-        className="w-20 h-20 flex items-center justify-center rounded-lg p-2 "
-        
-      >
-       
-  {icon}
+      <div className="flex h-20 w-20 items-center justify-center rounded-lg p-2">
+        {icon}
       </div>
-      <span className="text-white text-sm font-medium">{name}</span>
+      <span className="font-sans text-base font-medium text-white">{name}</span>
     </motion.div>
-  )
+  );
 }
-
