@@ -29,7 +29,7 @@ export default function SectionHeading({ title, subtitle, align = "center" }: Se
 
       {subtitle && (
         <motion.p
-          className="text-gray-300 font-sans text-xl"
+          className="text-gray-300 font-sans text-base md:text-xl"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
