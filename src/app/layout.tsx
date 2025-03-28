@@ -1,10 +1,12 @@
-import { Inter, Lato } from "next/font/google";
-import { SpeedInsights } from "@vercel/speed-insights/next"
-const inter = Inter({ subsets: ["latin"] });
-const lato = Lato({
-  weight: ["100", "300", "400", "700"],
+import { Inter } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
+const inter = Inter({
   subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
 });
+
 export default function RootLayout({
   children,
 }: {
@@ -12,8 +14,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <SpeedInsights/>
-      <body className={`${inter.className} ${lato.className}`}>{children}</body>
+      <SpeedInsights />
+      <body className={`${inter.variable}`}>{children}</body>
     </html>
   );
 }

@@ -14,12 +14,11 @@ export default function AllProjects({ data }: AllProjectsProps) {
   ].filter((category): category is string => category !== undefined);
 
   function filterProjectsByCategory(categoryName: string): ProjectsModel[] {
-    return data
-      .filter(
-        (project) =>
-          project?.urlforimage !== null &&
-          project?.category?.some((tag) => tag.name === categoryName),
-      ) as ProjectsModel[];
+    return data.filter(
+      (project) =>
+        project?.urlforimage !== null &&
+        project?.category?.some((tag) => tag.name === categoryName),
+    ) as ProjectsModel[];
   }
 
   return (

@@ -8,54 +8,51 @@ import {
 import { RiSparklingFill } from "react-icons/ri";
 import Link from "next/link";
 import Image from "next/image";
+import AnimatedText from "../../../utils/animated-text";
 
 export default function HeroContent() {
   return (
     <motion.div
       initial="hidden"
       animate="visible"
-      className="z-20 container mx-auto flex h-full w-full max-w-7xl flex-col items-center justify-center px-5 pt-20 max-[375px]:max-w-[320px] max-[320px]:mt-0 lg:flex-row lg:pt-0"
+      className="z-20 container flex h-full w-full  flex-col items-center justify-center px-4 pt-20  xl:flex-row xl:pt-0"
     >
-      <div className="mx-auto flex h-full w-full flex-col items-center justify-center gap-5 text-start lg:items-start">
+      <div className="flex h-full w-full flex-col items-center justify-center gap-5 text-start xl:items-start">
+        {/* BADGE COM ESTRELINHA */}
         <motion.div
           className="Welcome-box border border-[#7042f88b] px-4 py-4 opacity-90"
           variants={slideInFromTop}
         >
           <RiSparklingFill className="mr-1 h-5 w-5 text-[#b49bff]" />
-          <h1 className="Welcome-text text-[13px]">
+          <h1 className="Welcome-text text-base">
             Desenvolvedor Front-End Portfolio
           </h1>
         </motion.div>
-
+{/* nome e função */}
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="font-bold text-white lg:max-w-[600px]"
+          className="font-bold text-white"
         >
           <span className="flex flex-col">
-            <span className="bg-linear-to-r from-purple-500 to-cyan-500 bg-clip-text text-center text-4xl text-transparent lg:text-left lg:text-6xl">
+            <span className="bg-linear-to-r from-purple-500 to-cyan-500 bg-clip-text text-center text-4xl md:text-5xl lg:text-6xl text-transparent xl:text-left xl:text-[90px]">
               {" "}
               Felipe Lacerda{" "}
             </span>
-            <span className="text-center text-3xl lg:text-left lg:text-4xl">
+            <span className="text-center text-xl lg:text-2xl xl:text-left xl:text-5xl">
               Desenvolvedor Front-End
             </span>
           </span>
         </motion.div>
 
-        <motion.p
-          variants={slideInFromLeft(0.8)}
-          className="max-w-[600px] text-center text-base text-gray-300 md:text-lg lg:max-w-[450px] lg:text-left xl:max-w-[600px]"
-        >
-          A minha jornada no mundo do desenvolvimento web começou com o{" "}
-          <span className="font-bold">React</span> e o{" "}
-          <span className="font-bold">Next.js</span> e desde então tenho
-          trabalhado para aprimorar minhas habilidades e criar sites e
-          aplicativos envolventes.
-        </motion.p>
+        <AnimatedText
+          text="A minha jornada no mundo do desenvolvimento web começou com o React e o Next.js e desde então tenho trabalhado para aprimorar minhas habilidades e criar sites e aplicativos envolventes."
+          className="max-w-[768px] text-base md:text-xl xl:text-left text-center font-sans text-gray-300"
+          delay={0.2}
+        />
 
         <motion.div
           variants={slideInFromLeft(1)}
-          className="flex w-full items-center justify-center gap-5 lg:justify-start"
+          className="flex w-full items-center justify-center gap-5 xl:justify-start"
         >
           <Link
             target="_blank"
@@ -83,6 +80,7 @@ export default function HeroContent() {
           alt="hero image computador e mãos programando"
           height={650}
           width={650}
+          className="aspect-square"
           priority
         />
       </motion.div>

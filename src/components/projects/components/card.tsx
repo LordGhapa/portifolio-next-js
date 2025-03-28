@@ -26,7 +26,6 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   const [isHovered, setIsHovered] = useState(false);
 
-
   return (
     <Link href={`/projetos/${slug}`} className="block h-full">
       <motion.div

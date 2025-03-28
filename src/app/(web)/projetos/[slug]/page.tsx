@@ -57,14 +57,15 @@ export default async function Project(props: ProjectProps) {
           />
         </div>
         <div className="tags mb-2 flex flex-wrap gap-2">
-          {info && info?.tags?.map((data, index) => (
-            <div
-              key={index}
-              className="w-fit rounded-sm bg-gray-500 p-1 text-xs text-white capitalize"
-            >
-              {data.name}
-            </div>
-          ))}
+          {info &&
+            info?.tags?.map((data, index) => (
+              <div
+                key={index}
+                className="w-fit rounded-sm bg-gray-500 p-1 text-xs text-white capitalize"
+              >
+                {data.name}
+              </div>
+            ))}
         </div>
         <div className="texto mt-2 flex flex-col gap-1">
           <h1 className="text-center text-xl font-semibold text-white">

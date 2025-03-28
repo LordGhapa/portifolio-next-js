@@ -1,8 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --font-lato: Lato;
-
+  --font-sans: "Inter", sans-serif;
   --background-image-hero: url("/hero.webp");
   --background-image-heromd: url("/hero-mobile.webp");
 }
@@ -23,6 +22,11 @@
   ::file-selector-button {
     border-color: var(--color-gray-200, currentColor);
   }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #030014;
 }
 
 html {

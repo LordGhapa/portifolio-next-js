@@ -3,6 +3,7 @@ import { dataSkills } from "@/data";
 import SkillCard from "./SkillsCard";
 import React from "react";
 import { useStateContext } from "@/app/(web)/providers/provider";
+import SectionHeading from "../section-heading";
 
 export default function Skills() {
   const { refCallback }: any = useStateContext();
@@ -13,9 +14,10 @@ export default function Skills() {
         className="z-20 container mx-auto flex w-full flex-col items-center justify-center py-20"
         ref={refCallback}
       >
-        <h2 className="bg-linear-to-r from-purple-500 to-cyan-500 bg-clip-text pb-10 text-5xl font-semibold text-clip text-transparent">
-          Habilidades
-        </h2>
+           <SectionHeading
+            title="Habilidades"
+            subtitle="Tecnologias e ferramentas que utilizo no meu dia a dia como desenvolvedor."
+          />
         <div className="flex flex-wrap justify-center">
           {dataSkills.map((data, index) => (
             <React.Fragment key={data.text}>
