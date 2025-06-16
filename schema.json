@@ -365,7 +365,7 @@
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       }
     }
   },
@@ -409,7 +409,7 @@
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       }
     }
   },
@@ -453,7 +453,7 @@
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "priority": {
         "type": "objectAttribute",
@@ -617,14 +617,14 @@
             }
           }
         },
-        "optional": false
+        "optional": true
       },
       "shortDescription": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
-        "optional": false
+        "optional": true
       },
       "fullDescription": {
         "type": "objectAttribute",
@@ -803,7 +803,7 @@
             }
           }
         },
-        "optional": false
+        "optional": true
       },
       "projectLink": {
         "type": "objectAttribute",
@@ -832,7 +832,7 @@
           "type": "inline",
           "name": "slug"
         },
-        "optional": false
+        "optional": true
       }
     }
   },
@@ -854,7 +854,7 @@
           "value": {
             "type": "string"
           },
-          "optional": false
+          "optional": true
         },
         "source": {
           "type": "objectAttribute",
