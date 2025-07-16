@@ -16,7 +16,7 @@ export default function ErrorPage() {
   }, [count]);
 
   return (
-    <div className="z-40 flex h-screen items-center justify-center text-white">
+    <div className="z-40 flex h-screen  items-center justify-center  text-white">
       <h2>Pagina Não Encontrada retornando em : {count}</h2>
     </div>
   );

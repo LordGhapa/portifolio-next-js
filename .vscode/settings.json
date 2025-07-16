@@ -1,4 +1,8 @@
 {
-  "cSpell.words": ["burguer", "hotspot"],
+  "cSpell.words": [
+    "burguer",
+    "heromd",
+    "hotspot"
+  ],
   "typescript.tsserver.useSyntaxServer": "never"
 }
