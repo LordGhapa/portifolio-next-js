@@ -8,7 +8,6 @@ export async function getAllProjects(): Promise<GetAllProjectsResult> {
     queries.getAllProjects,
     {},
     { cache: "force-cache" },
-    // { cache: "no-cache" },
   );
 
   return result;

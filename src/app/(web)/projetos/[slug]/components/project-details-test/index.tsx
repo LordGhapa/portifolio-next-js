@@ -16,7 +16,7 @@ interface ProjectDetailsProps {
   info: {
     projectName: string;
     urlforimage: string | null;
-    tags: { name: string }[] | null; 
+    tags: { name: string }[] | null;
     fullDescription: any;
     projectLink?: string | null;
     githubLink?: string | null;
@@ -53,7 +53,7 @@ export default function ProjectDetailsTest({ info }: ProjectDetailsProps) {
               <motion.div className="imagem relative flex min-h-[200px] w-full items-center justify-center bg-gradient-to-r from-purple-500 to-cyan-500 p-6 mb-4"
                initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}>
-                  
+
                 {info?.urlforimage &&  <Image
                     src={urlFor(info.urlforimage).url()}
                     alt={`Imagem do projeto`}
@@ -62,11 +62,11 @@ export default function ProjectDetailsTest({ info }: ProjectDetailsProps) {
                     className="rounded-lg"
                   />}
                 </motion.div>
-      
+
 
   <div className="grid w-full gap-8 lg:grid-cols-[2fr_1fr]">
               <motion.div
-            className="space-y-4 md:space-y-8"
+            className="space-y-4 md:space-y-8 text-white!"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
@@ -77,9 +77,9 @@ export default function ProjectDetailsTest({ info }: ProjectDetailsProps) {
                 <TechnologyTag key={tech.name}>{tech.name}</TechnologyTag>
               )))}
             </div>
-    
 
-   
+
+
             <h1 className="text-xl  md:text-4xl font-bold text-white">
               {info.projectName}
             </h1>
@@ -122,7 +122,7 @@ export default function ProjectDetailsTest({ info }: ProjectDetailsProps) {
 
          {info?.githubLink && ( <ActionButton
               href={info?.githubLink}
-              icon={<RiGithubLine size={24} />}         
+              icon={<RiGithubLine size={24} />}
               variant="secondary"
             >
               Ver Código no GitHub
@@ -139,6 +139,6 @@ export default function ProjectDetailsTest({ info }: ProjectDetailsProps) {
             )}
           </motion.div>
          </div>  </div>
-  </main> 
+  </main>
   );
 }
